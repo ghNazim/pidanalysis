@@ -21,17 +21,8 @@ function Details() {
           <p>
             <strong>Primary Number :</strong> {uxosData.student_details.mobile}
           </p>
-          <p>
-            <strong>Order Punched From :</strong> 17139
-          </p>
-          <p>
-            <strong>Updated At :</strong> Monday, June 10, 2024 5:36 PM
-          </p>
-          <p>
-            <strong>Created At :</strong> Monday, June 10, 2024 5:34 PM
-          </p>
         </Col>
-        <Col md={4}>
+        {/* <Col md={4}>
           <div className="border p-2">
             <p>
               <strong>Extra Information</strong>
@@ -50,7 +41,7 @@ function Details() {
               <span className="badge bg-success">Active</span>
             </p>
           </div>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   );

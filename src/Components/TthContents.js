@@ -1,11 +1,15 @@
 import React from 'react'
-
+import { Container } from 'react-bootstrap';
+import { batchArray } from '../DataDump/Batches/batchdetails';
+import BatchCard from './TTH/BatchCard';
 function TthContents() {
   return (
-    <div>
-      Tth contents goes here
-    </div>
-  )
+    <Container className="mt-4">
+      {batchArray.map((item, index) => (
+        <BatchCard batch={item} key={index} />
+      ))}
+    </Container>
+  );
 }
 
 export default TthContents

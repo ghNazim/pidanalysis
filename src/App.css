@@ -17,3 +17,6 @@
 .tdError{
 overflow-x:visible !important
 }
+.errorCard{
+  cursor: pointer;
+}

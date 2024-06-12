@@ -2,14 +2,19 @@ import React from 'react'
 import { Table, Container } from "react-bootstrap";
 
 function SingleItem({data}){
-    
+    const validTill = data.Batch
+      ? JSON.stringify(data["Valid Till"])
+      : JSON.stringify(data["VALID TILL"]);
     return (
       <tr>
-        <td>{data.Reference}</td>
-        <td>{data.Cohort}</td>
-        <td>{data["Valid From"]}</td>
-        <td>{data["Valid Till"]?Object.values(data["Valid Till"])[0]:""}</td>
-        <td>{data["Delivery Date"]}</td>
+        <td>{data.Batch || data.BATCH}</td>
+        <td>{data.Reference || data.REFERENCE}</td>
+        <td>{data.Cohort || data.COHORT}</td>
+        <td>{data["Valid From"] || data["VALID FROM"]}</td>
+        <td>
+          {validTill}
+        </td>
+        <td>{data["Delivery Date"] || data["DELIVERY DATE"]}</td>
       </tr>
     );
 }
@@ -19,6 +24,7 @@ function SessionItem({dataArray}) {
       <Table striped bordered hover responsive>
         <thead>
           <tr>
+            <th>Batch</th>
             <th>Reference Id</th>
             <th>Cohort</th>
             <th>Valid From</th>

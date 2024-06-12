@@ -33,11 +33,6 @@ const SubscriptionCard = ({ subscription, orderId }) => (
           </Button>
           <Card.Text>
             Subscription Type: {subscription.subscriptionType} <br />
-            Subscription Status:{" "}
-            <span className={`badge ${subscription.subscriptionStatusBadge}`}>
-              {subscription.subscriptionStatus}
-            </span>{" "}
-            <br />
             Sku Id: {subscription.skuId} <br />
             Academic Year: {subscription.valid_till.split("-")[0]} <br />
             Max Valid Till: {formatReadableDate(subscription.max_valid_till)}

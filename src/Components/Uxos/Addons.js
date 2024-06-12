@@ -16,10 +16,9 @@ const AddonItem = ({data}) => {
   const filteredErrorList = Object.fromEntries(Object.entries(errorlist).filter(([key, value]) => value === true))
   const isErrored = Object.keys(filteredErrorList).length > 0;
   const errorText = Object.keys(filteredErrorList).join(" & ");
-  console.log(errorText)
   return (
     <tr>
-      <td class="tdError">
+      <td className="tdError">
         {isErrored && (
           <>
             <FontAwesomeIcon

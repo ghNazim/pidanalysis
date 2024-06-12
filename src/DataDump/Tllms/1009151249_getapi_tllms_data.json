@@ -1,0 +1,308 @@
+{
+    "Logistic_Order_Details": {
+        "CREATED AT": "November 28, 2021 22:25",
+        "ID": "1516749",
+        "ORDER": "SSO1-2111281655010178",
+        "SUBSCRIBER REGION": "EMPTY",
+        "USER": "Najran"
+    },
+    "Logistic_Sessions": [
+        {
+            "one-to-mega-sessions-new-format": [
+                {
+                    "BATCH": "---",
+                    "COHORT": "4th Grade Marketing",
+                    "DELIVERY DATE": "NOT DELIVERED",
+                    "REFERENCE": "SSO1-21112816550101781009000R",
+                    "SETUP DONE ON TUTOR PLUS": "NO",
+                    "SLOT PREFERENCE": "",
+                    "VALID FROM": "December 03, 2021",
+                    "VALID TILL": {
+                        "OMS JSON": "2022-04-08"
+                    }
+                }
+            ]
+        },
+        {
+            "neo-sessions": [
+                {
+                    "Batch": "---",
+                    "Cohort": "4th Grade Marketing",
+                    "Delivery Date": "Not Delivered",
+                    "Reference": "SSO1-21112816550101781009000",
+                    "Setup Done On Tutor Plus": "No",
+                    "Slot Preference": "",
+                    "Valid From": "November 27, 2021",
+                    "Valid Till": {
+                        "OMS JSON": "2022-04-08"
+                    }
+                },
+                {
+                    "Batch": "---",
+                    "Cohort": "5th Grade Marketing",
+                    "Delivery Date": "Not Delivered",
+                    "Reference": "SSO1-2111281655010178947756",
+                    "Setup Done On Tutor Plus": "No",
+                    "Slot Preference": "",
+                    "Valid From": "April 07, 2022",
+                    "Valid Till": {
+                        "OMS JSON": "2023-03-26"
+                    }
+                },
+                {
+                    "Batch": "---",
+                    "Cohort": "5th Grade All Boards",
+                    "Delivery Date": "Not Delivered",
+                    "Reference": "SSO1-202205250943392873255",
+                    "Setup Done On Tutor Plus": "No",
+                    "Slot Preference": "",
+                    "Valid From": "May 24, 2022",
+                    "Valid Till": {
+                        "OMS JSON": "2022-07-08"
+                    }
+                },
+                {
+                    "Batch": "---",
+                    "Cohort": "5th Grade Marketing",
+                    "Delivery Date": "Not Delivered",
+                    "Reference": "E-SSO1-21112816550101781313908",
+                    "Setup Done On Tutor Plus": "No",
+                    "Slot Preference": "",
+                    "Valid From": "June 08, 2022",
+                    "Valid Till": {
+                        "OMS JSON": "2023-03-26"
+                    }
+                },
+                {
+                    "Batch": "---",
+                    "Cohort": "5th Grade All Boards",
+                    "Delivery Date": "Not Delivered",
+                    "Reference": "10091512492705909",
+                    "Setup Done On Tutor Plus": "No",
+                    "Slot Preference": "",
+                    "Valid From": "June 22, 2022",
+                    "Valid Till": {
+                        "OMS JSON": "2022-07-08"
+                    }
+                },
+                {
+                    "Batch": "---",
+                    "Cohort": "5th Grade Marketing",
+                    "Delivery Date": "Not Delivered",
+                    "Reference": "E-SSO1-21112816550101784082889",
+                    "Setup Done On Tutor Plus": "No",
+                    "Slot Preference": "",
+                    "Valid From": "August 04, 2022",
+                    "Valid Till": {
+                        "OMS JSON": "2022-10-16"
+                    }
+                },
+                {
+                    "Batch": "---",
+                    "Cohort": "5th Grade Marketing",
+                    "Delivery Date": "Not Delivered",
+                    "Reference": "E-SSO1-21112816550101782110149",
+                    "Setup Done On Tutor Plus": "No",
+                    "Slot Preference": "",
+                    "Valid From": "August 12, 2022",
+                    "Valid Till": {
+                        "OMS JSON": "2022-11-14"
+                    }
+                },
+                {
+                    "Batch": "---",
+                    "Cohort": "5th Grade Marketing",
+                    "Delivery Date": "Not Delivered",
+                    "Reference": "D-SSO1-21070311202207437897751",
+                    "Setup Done On Tutor Plus": "No",
+                    "Slot Preference": "",
+                    "Valid From": "June 16, 2022",
+                    "Valid Till": {
+                        "OMS JSON": "2023-03-26"
+                    }
+                },
+                {
+                    "Batch": "---",
+                    "Cohort": "5th Grade Marketing",
+                    "Delivery Date": "Not Delivered",
+                    "Reference": "E-SSO1-21112816550101785329949",
+                    "Setup Done On Tutor Plus": "No",
+                    "Slot Preference": "",
+                    "Valid From": "December 30, 2022",
+                    "Valid Till": {
+                        "OMS JSON": "2023-03-11"
+                    }
+                },
+                {
+                    "Batch": "22/Tue,Thu,Sat_16:30-17:30/Hindi\nCourse id - 5907\nBatch id - 63ee12beeee3830b317b5d78\nSub batch - 6534058f12e3ee12dfe3321c",
+                    "Cohort": "6th Grade Marketing",
+                    "Delivery Date": "March 23, 2023",
+                    "Reference": "SSO1-2111281655010178491214290006",
+                    "Setup Done On Tutor Plus": "Yes",
+                    "Slot Preference": "TUESDAY - 16:30 - 17:30\nTHURSDAY - 16:30 - 17:30\nSATURDAY - 16:30 - 17:30",
+                    "Valid From": "March 23, 2023",
+                    "Valid Till": {
+                        "TTH": "July 22, 2023"
+                    }
+                },
+                {
+                    "Batch": "22/Fri_18:45-19:45/Hin\nCourse id - 6006\nBatch id - 63f370e9ce54b5044a7d8a8c\nSub batch - 63f96c9e6ea83538c68bd44e",
+                    "Cohort": "6th Grade Marketing",
+                    "Delivery Date": "March 23, 2023",
+                    "Reference": "E-SSO1-2111281655010178761714290006",
+                    "Setup Done On Tutor Plus": "Yes",
+                    "Slot Preference": "FRIDAY - 18:45 - 19:45",
+                    "Valid From": "March 23, 2023",
+                    "Valid Till": {
+                        "TTH": "July 22, 2023"
+                    }
+                },
+                {
+                    "Batch": "22/Mon_21:00-22:00/Hin\nCourse id - 5947\nBatch id - 63f36fb119f3f67967b25817\nSub batch - 63f96c5e6ea83538c68bd41b",
+                    "Cohort": "6th Grade Marketing",
+                    "Delivery Date": "March 23, 2023",
+                    "Reference": "E-SSO1-2111281655010178171714290006",
+                    "Setup Done On Tutor Plus": "Yes",
+                    "Slot Preference": "MONDAY - 21:00 - 22:00",
+                    "Valid From": "March 23, 2023",
+                    "Valid Till": {
+                        "TTH": "July 22, 2023"
+                    }
+                },
+                {
+                    "Batch": "22/Mon,Wed_17:45-18:45/Hindi/EP\nCourse id - 6722\nBatch id - 6492ad769ebf4c2199663ab3\nSub batch - 64946146b91aa6067ad4003e",
+                    "Cohort": "6th Grade Marketing",
+                    "Delivery Date": "June 21, 2023",
+                    "Reference": "E-SSO1-21112816550101784226369",
+                    "Setup Done On Tutor Plus": "Yes",
+                    "Slot Preference": "MONDAY - 17:45 - 18:45\nWEDNESDAY - 17:45 - 18:45",
+                    "Valid From": "June 22, 2023",
+                    "Valid Till": {
+                        "TTH": "July 22, 2023"
+                    }
+                },
+                {
+                    "Batch": "22/Fri_18:45-19:45/Eng\nCourse id - 6006\nBatch id - 63f37164ce54b5044a7d8b58\nSub batch - 63f78ac38ccbcc0ddf70b381",
+                    "Cohort": "6th Grade Marketing",
+                    "Delivery Date": "November 02, 2023",
+                    "Reference": "Ex-SSO1-21112816550101785906951",
+                    "Setup Done On Tutor Plus": "Yes",
+                    "Slot Preference": "FRIDAY - 18:45 - 19:45",
+                    "Valid From": "November 03, 2023",
+                    "Valid Till": {
+                        "TTH": "May 30, 2024"
+                    }
+                },
+                {
+                    "Batch": "22/Fri_17:45-18:45/Hin\nCourse id - 5947\nBatch id - 63f36fb3ce54b5044a7d8992\nSub batch - 63f8cc01c7233133f8297b05",
+                    "Cohort": "6th Grade Marketing",
+                    "Delivery Date": "January 05, 2024",
+                    "Reference": "Ex-SSO1-21112816550101785425508",
+                    "Setup Done On Tutor Plus": "Yes",
+                    "Slot Preference": "FRIDAY - 17:45 - 18:45",
+                    "Valid From": "January 06, 2024",
+                    "Valid Till": {
+                        "TTH": "May 30, 2024"
+                    }
+                }
+            ]
+        },
+        {
+            "blc-sessions": [
+                {
+                    "Batch": "batch linking yet to be done after batch transfer",
+                    "Cohort": "6th Grade Marketing",
+                    "Delivery Date": "Not Delivered",
+                    "Reference": "SSO1-2307220943420483078900",
+                    "Setup Done On Blc": "No",
+                    "Slot Preference": "",
+                    "Valid From": "July 21, 2023",
+                    "Valid Till": {
+                        "OMS JSON": "2024-02-26"
+                    }
+                },
+                {
+                    "Batch": "batch linking yet to be done after batch transfer",
+                    "Cohort": "6th Grade Marketing",
+                    "Delivery Date": "Not Delivered",
+                    "Reference": "SSO1-24022906542408640009020",
+                    "Setup Done On Blc": "No",
+                    "Slot Preference": "",
+                    "Valid From": "February 28, 2024",
+                    "Valid Till": {
+                        "OMS JSON": "2024-04-05"
+                    }
+                },
+                {
+                    "Batch": "batch linking yet to be done after batch transfer",
+                    "Cohort": "7th Grade Marketing",
+                    "Delivery Date": "Not Delivered",
+                    "Reference": "SSO1-240229065424086400090206",
+                    "Setup Done On Blc": "No",
+                    "Slot Preference": "",
+                    "Valid From": "April 07, 2024",
+                    "Valid Till": {
+                        "OMS JSON": "2024-04-14"
+                    }
+                }
+            ]
+        }
+    ],
+    "Subscription_Details": [
+        {
+            "ACTIONS": "New Token",
+            "CODE": "XA92Z4",
+            "COURSE": "4th Grade",
+            "COURSE END DATE": "February 29, 2024",
+            "MAX VALID TILL": "May 31, 2024",
+            "PROGRAM TYPE": "BTLP",
+            "STATUS": "confirmed",
+            "USER": "88988456",
+            "VALID TILL": "May 31, 2024"
+        },
+        {
+            "ACTIONS": "New Token",
+            "CODE": "XA92Z4",
+            "COURSE": "4th Grade",
+            "COURSE END DATE": "February 29, 2024",
+            "MAX VALID TILL": "May 31, 2024",
+            "PROGRAM TYPE": "BTLP",
+            "STATUS": "confirmed",
+            "USER": "88988456",
+            "VALID TILL": "May 31, 2024"
+        },
+        {
+            "ACTIONS": "--",
+            "CODE": "R6BQSN",
+            "COURSE": "5th Grade All Boards",
+            "COURSE END DATE": "February 29, 2024",
+            "MAX VALID TILL": "May 31, 2024",
+            "PROGRAM TYPE": "BTLP",
+            "STATUS": "confirmed",
+            "USER": "88988456",
+            "VALID TILL": "May 31, 2024"
+        },
+        {
+            "ACTIONS": "New Token",
+            "CODE": "YVAGNJ",
+            "COURSE": "5th Grade",
+            "COURSE END DATE": "February 29, 2024",
+            "MAX VALID TILL": "May 31, 2024",
+            "PROGRAM TYPE": "BTLP",
+            "STATUS": "confirmed",
+            "USER": "88988456",
+            "VALID TILL": "May 31, 2024"
+        },
+        {
+            "ACTIONS": "New Token",
+            "CODE": "88SZA7",
+            "COURSE": "6th Grade",
+            "COURSE END DATE": "February 29, 2024",
+            "MAX VALID TILL": "May 31, 2024",
+            "PROGRAM TYPE": "BTLP",
+            "STATUS": "confirmed",
+            "USER": "88988456",
+            "VALID TILL": "May 31, 2024"
+        }
+    ]
+}

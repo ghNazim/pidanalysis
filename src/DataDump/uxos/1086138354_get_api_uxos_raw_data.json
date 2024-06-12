@@ -1,0 +1,159 @@
+{
+    "docs": [
+        {
+            "_id": "661696b1822d90d9ee17fed6",
+            "addons": [
+                {
+                    "subscriptionLineItemId": "SH-SO-2404101335000761-ST08CB25",
+                    "reference_id": "SSO1-24041013350007611718004417",
+                    "valid_from": "2024-06-10 00:00:00",
+                    "valid_till": "2025-03-31 00:00:00",
+                    "type": "blc_session",
+                    "quantity": 90,
+                    "product_id": "SKU2",
+                    "slots": [
+                        {
+                            "day": "Sun",
+                            "startTime": "10:0:AM",
+                            "endTime": "11:0:AM"
+                        },
+                        {
+                            "day": "Sun",
+                            "startTime": "11:0:AM",
+                            "endTime": "12:0:PM"
+                        },
+                        {
+                            "day": "Wed",
+                            "startTime": "6:0:PM",
+                            "endTime": "7:0:PM"
+                        },
+                        {
+                            "day": "Fri",
+                            "startTime": "6:0:PM",
+                            "endTime": "7:0:PM"
+                        },
+                        {
+                            "day": "Fri",
+                            "startTime": "7:0:PM",
+                            "endTime": "8:0:PM"
+                        }
+                    ],
+                    "course_alias": "Math Science",
+                    "orderId": "SSO1-2404101335000761",
+                    "cohortId": 14,
+                    "batch_id": 148001,
+                    "status": "active",
+                    "joining_mode": "ONLINE",
+                    "enrolment_type": "new_subscription",
+                    "initiator": "kart"
+                }
+            ],
+            "identity": {
+                "account_id": "e3008443-feba-478f-8149-4aaaf9f91643",
+                "identity_id": "00f4ba50-52e7-4c6f-a466-0f24e8500e6c"
+            },
+            "order_lines": [
+                {
+                    "student_name": "P . Sivakarthikeyan",
+                    "orderId": "SO-2404101335000761",
+                    "orderType": "SPLIT_PARENT",
+                    "order_line_ref": "SSO1-240410133500076100",
+                    "initial_max_valid_till": "2025-05-31 23:30:00",
+                    "device_details": {},
+                    "subscriptions": [
+                        {
+                            "cohort_id": 14,
+                            "addonValidity": "2025-05-31 23:30:00",
+                            "valid_from": "2024-04-10 00:00:00",
+                            "valid_till": "2025-05-31 23:30:00",
+                            "max_valid_till": "2025-05-31 23:30:00",
+                            "payment_mode": "emi",
+                            "status": "confirmed",
+                            "referenceId": "ST08CB25",
+                            "orderId": "SSO1-2404101335000761",
+                            "type": "streaming",
+                            "skuId": "ST08CB25",
+                            "grade": "8",
+                            "subscriptionId": "SH-SO-2404101335000761-ST08CB25",
+                            "programId": "BTLAKXAS0001",
+                            "subscriptionStatus": "active",
+                            "isFirstClass": true,
+                            "subscriptionType": "byjus_learning_centre",
+                            "productSelectionType": "byjus_learning_centre",
+                            "blcReference": "SSO1-24041013350007611718004417",
+                            "batch_id": 148001,
+                            "course_id": "14317"
+                        }
+                    ]
+                }
+            ],
+            "primaryNumber": "+91-9790811290",
+            "studentAdditionalDetails": {
+                "grade": "8",
+                "board": "CBSE",
+                "cohortId": 14,
+                "courseId": "N/A",
+                "batchId": "N/A",
+                "type": "student",
+                "courseInfo": "N/A",
+                "sessionsInfo": "N/A",
+                "course": "K10/K12",
+                "category": "TLP",
+                "maxValidity": "2025-05-31T23:30:00.000Z"
+            },
+            "studentId": "1086138354",
+            "student_details": {
+                "full_name": "P . Sivakarthikeyan",
+                "studentId": "P . Sivakarthikeyan-1",
+                "email": "parthasarathybama@gmail.com",
+                "mobile": "+91-9790811290",
+                "siblingNumber": 0,
+                "city": "Kanchipuram",
+                "zipCode": "600100",
+                "schoolName": "",
+                "schoolId": null,
+                "schoolAddress": "undefined",
+                "schoolCity": "",
+                "schoolState": "",
+                "mathMarks": null,
+                "proficiency": "",
+                "scienceMarks": null,
+                "bloodGroup": "",
+                "centreName": "",
+                "emergencyContact": "",
+                "parentName": "Bama Parthasarathy",
+                "residentialAddress": "",
+                "attachments": {},
+                "socialInitiativeStudent": "",
+                "socialInitiativeName": "",
+                "centreAddress": "",
+                "locations": [
+                    {
+                        "city": "Kanchipuram",
+                        "zipCode": "600100",
+                        "country": "India",
+                        "state": "Tamil Nadu",
+                        "addressType": "shipping",
+                        "address": "no.12 rajagopal Street \n Village high road\n  30th main road Sholinganallur"
+                    }
+                ],
+                "school_details": [
+                    {
+                        "schoolName": "",
+                        "schoolId": null,
+                        "schoolAddress": "undefined",
+                        "schoolCity": "",
+                        "schoolState": "",
+                        "googleSchoolId": "",
+                        "schoolPin": null,
+                        "status": "Active"
+                    }
+                ]
+            }
+        }
+    ],
+    "page": 1,
+    "pages": 1,
+    "limit": 1,
+    "total": 1
+}

@@ -1,0 +1,103 @@
+{
+    "Logistic_Order_Details": {
+        "CREATED AT": "November 22, 2023 10:28",
+        "ID": "7323268",
+        "ORDER": "SSO1-2311211327140069",
+        "SUBSCRIBER REGION": "EMPTY",
+        "USER": "Pranjal"
+    },
+    "Logistic_Sessions": [
+        {
+            "neo-sessions": [
+                {
+                    "BATCH": "15/Wed_20:00-21:00/Hin\nCourse id - 6011\nBatch id - 63f3700c19f3f67967b25895\nSub batch - 63feab376ea83538c68c74a5",
+                    "COHORT": "9th Grade Marketing",
+                    "DELIVERY DATE": "November 23, 2023",
+                    "REFERENCE": "Ex-SSO1-23112113271400699964558",
+                    "SETUP DONE ON TUTOR PLUS": "YES",
+                    "SLOT PREFERENCE": "WEDNESDAY - 20:00 - 21:00",
+                    "VALID FROM": "November 24, 2023",
+                    "VALID TILL": {
+                        "TTH": "May 30, 2024"
+                    }
+                },
+                {
+                    "BATCH": "15/Fri_21:00-22:00/Hin\nCourse id - 6012\nBatch id - 63f3713219f3f67967b25991\nSub batch - 63ff0bbd6ea83538c68c7711",
+                    "COHORT": "9th Grade Marketing",
+                    "DELIVERY DATE": "November 23, 2023",
+                    "REFERENCE": "Ex-SSO1-23112113271400692073676",
+                    "SETUP DONE ON TUTOR PLUS": "YES",
+                    "SLOT PREFERENCE": "FRIDAY - 21:00 - 22:00",
+                    "VALID FROM": "November 24, 2023",
+                    "VALID TILL": {
+                        "TTH": "May 30, 2024"
+                    }
+                }
+            ]
+        },
+        {
+            "blc-sessions": [
+                {
+                    "Batch": "Standard_IX_15_CBSE_Hardwar_Roorkee-Civil_Lines_52_2023_4_4_34e0\nCourse id - 8577\nBatch id - 81571",
+                    "Cohort": "9th Grade Marketing",
+                    "Delivery Date": "November 21, 2023",
+                    "Reference": "SSO1-23112113271400690009000",
+                    "Setup Done On Blc": "Yes",
+                    "Slot Preference": "Tue - 06:00 - 06:55\nTue - 07:00 - 07:55\nThu - 06:00 - 06:55\nSat - 06:00 - 06:55\nSat - 07:00 - 07:55",
+                    "Valid From": "November 21, 2023",
+                    "Valid Till": {
+                        "TTH": "May 28, 2024"
+                    }
+                },
+                {
+                    "Batch": "batch linking yet to be done after batch transfer",
+                    "Cohort": "10th Grade Marketing",
+                    "Delivery Date": "Not Delivered",
+                    "Reference": "SSO1-231121132714006900090006",
+                    "Setup Done On Blc": "No",
+                    "Slot Preference": "",
+                    "Valid From": "April 07, 2024",
+                    "Valid Till": {
+                        "OMS JSON": "2025-05-31"
+                    }
+                },
+                {
+                    "Batch": "Standard_X_16_CBSE_Hardwar_Roorkee-Civil_Lines_52_2024_4_1_b895\nCourse id - 15622\nBatch id - 150153",
+                    "Cohort": "10th Grade Marketing",
+                    "Delivery Date": "April 07, 2024",
+                    "Reference": "SSO1-2311211327140069000900066",
+                    "Setup Done On Blc": "Yes",
+                    "Slot Preference": "Sun - 12:00 - 01:00\nSun - 01:00 - 02:00\nWed - 06:00 - 07:00\nWed - 07:00 - 08:00\nFri - 07:00 - 08:00",
+                    "Valid From": "May 30, 2024",
+                    "Valid Till": {
+                        "TTH": "May 31, 2025"
+                    }
+                }
+            ]
+        }
+    ],
+    "Subscription_Details": [
+        {
+            "ACTIONS": "--",
+            "CODE": "WXWJ62",
+            "COURSE": "9th Grade",
+            "COURSE END DATE": "May 31, 2024",
+            "MAX VALID TILL": "May 31, 2025",
+            "PROGRAM TYPE": "BTLP",
+            "STATUS": "confirmed",
+            "USER": "120064433",
+            "VALID TILL": "May 31, 2025"
+        },
+        {
+            "ACTIONS": "--",
+            "CODE": "CGQW8H",
+            "COURSE": "10th Grade",
+            "COURSE END DATE": "May 31, 2025",
+            "MAX VALID TILL": "May 31, 2025",
+            "PROGRAM TYPE": "BTLP",
+            "STATUS": "confirmed",
+            "USER": "120064433",
+            "VALID TILL": "May 31, 2025"
+        }
+    ]
+}

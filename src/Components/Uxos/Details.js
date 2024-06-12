@@ -1,23 +1,25 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Container, Row, Col} from "react-bootstrap";
+import { DataContext } from "../../Contexts/DataContext";
+import { formatReadableDate } from "../../utility/utilityFunctions";
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function Details() {
+  const {uxosData}=useContext(DataContext)
+
+
   return (
     <Container className="mt-4">
       <Row>
         <Col md={7}>
           <p>
-            <strong>Student Name :</strong> Angel Pragya{" "}
-            
+            <strong>Student Name :</strong> {uxosData.student_details.full_name}
           </p>
           <p>
-            <strong>Student Email :</strong> 7552233553@byjusexamprep.com{" "}
-            
+            <strong>Student Email :</strong> {uxosData.student_details.email}
           </p>
           <p>
-            <strong>Primary Number :</strong> +91-1111111673{" "}
-            
+            <strong>Primary Number :</strong> {uxosData.student_details.mobile}
           </p>
           <p>
             <strong>Order Punched From :</strong> 17139
@@ -38,7 +40,10 @@ function Details() {
               <strong>Customer Id :</strong> CX-2406101204122008
             </p>
             <p>
-              <strong>Max Validity :</strong> Tuesday, June 11, 2024 5:00 AM
+              <strong>Max Validity :</strong>{" "}
+              {formatReadableDate(
+                uxosData.studentAdditionalDetails.maxValidity
+              )}
             </p>
             <p>
               <strong>Premium Account Status :</strong>{" "}

@@ -3,6 +3,7 @@ import { Tab, Tabs, Badge} from "react-bootstrap";
 import UxosContents from "./UxosContents";
 import TllmsContents from "./TllmsContents";
 import TthContents from "./TthContents";
+import Orders from "./Orders/Orders";
 function MainContent() {
   return (
     <div className="main-content" style={{ width: "70%", padding: "20px" }}>
@@ -14,23 +15,20 @@ function MainContent() {
           </Badge>
         </h6>
       </div>
-      <Tabs
-        defaultActiveKey="UXOS"
-        id="main-tabs"
-        className="mb-3"
-        justify
-      >
+      <Tabs defaultActiveKey="UXOS" id="main-tabs" className="mb-3" justify>
         <Tab eventKey="UXOS" title="UXOS">
-          <UxosContents/>
+          <UxosContents />
         </Tab>
         <Tab eventKey="TLLMS" title="TLLMS">
-          <TllmsContents/>
+          <TllmsContents />
         </Tab>
-        <Tab eventKey="TTH" title="TTH">
-          <TthContents/>
+        <Tab eventKey="TTH" title="Batch Details">
+          <TthContents />
+        </Tab>
+        <Tab eventKey="Orders" title="Orders">
+          <Orders/>
         </Tab>
       </Tabs>
-      
     </div>
   );
 }

@@ -1,0 +1,1224 @@
+{
+    "docs": [
+        {
+            "_id": "61a3b46c837be36e95fc6eea",
+            "addons": [
+                {
+                    "reference_id": "SSO1-21112816550101781009000",
+                    "valid_from": "2021-11-27 00:00:00",
+                    "valid_till": "2023-07-22 23:30:00",
+                    "quantity": 90,
+                    "type": "new_neo_session",
+                    "product_id": "SKU2"
+                },
+                {
+                    "reference_id": "SSO1-21112816550101781009000R",
+                    "valid_from": "2021-12-03 00:00:00",
+                    "valid_till": "2023-07-22 23:30:00",
+                    "quantity": 90,
+                    "type": "new_one_to_mega_session",
+                    "product_id": "SKU2"
+                },
+                {
+                    "reference_id": "SSO1-2111281655010178947756",
+                    "valid_from": "2022-04-07 00:00:00",
+                    "valid_till": "2023-07-22 23:30:00",
+                    "tutor_language_id": 2,
+                    "proficiency": "A2",
+                    "quantity": 90,
+                    "type": "new_neo_session",
+                    "product_id": "SKU2",
+                    "tutor_language": "hindi",
+                    "flow_of_topics": "cbse-5-2024-2016-lar",
+                    "mathMarks": "80",
+                    "scienceMarks": "80",
+                    "status": "graduated"
+                },
+                {
+                    "reference_id": "E-SSO1-21112816550101781313908",
+                    "valid_from": "2022-06-08 00:00:00",
+                    "valid_till": "2023-07-22 23:30:00",
+                    "quantity": 90,
+                    "type": "new_neo_session",
+                    "product_id": "SKU2",
+                    "language_of_instruction": "hindi",
+                    "flow_of_topics": "",
+                    "proficiency": "A2",
+                    "tutor_language_id": 2,
+                    "school_id": "",
+                    "orderId": "SSO1-2111281655010178",
+                    "batch_id": 23860,
+                    "cohort_id": 30,
+                    "course_id": 4361,
+                    "electiveSubject": "English",
+                    "status": "graduated"
+                },
+                {
+                    "reference_id": "E-SSO1-21112816550101784082889",
+                    "valid_from": "2022-08-04 00:00:00",
+                    "valid_till": "2023-07-22 23:30:00",
+                    "quantity": 90,
+                    "type": "new_neo_session",
+                    "product_id": "SKU2",
+                    "language_of_instruction": "hindi",
+                    "flow_of_topics": null,
+                    "proficiency": "A2",
+                    "tutor_language_id": 2,
+                    "school_id": "",
+                    "orderId": "SSO1-2111281655010178",
+                    "batch_id": 31016,
+                    "cohort_id": 30,
+                    "course_id": 5023,
+                    "batch_type": "exam_prep"
+                },
+                {
+                    "reference_id": "E-SSO1-21112816550101782110149",
+                    "valid_from": "2022-08-12 00:00:00",
+                    "valid_till": "2023-07-22 23:30:00",
+                    "quantity": 90,
+                    "type": "new_neo_session",
+                    "product_id": "SKU2",
+                    "language_of_instruction": "hindi",
+                    "flow_of_topics": null,
+                    "proficiency": "A2",
+                    "tutor_language_id": 2,
+                    "school_id": "",
+                    "orderId": "SSO1-2111281655010178",
+                    "batch_id": 31208,
+                    "cohort_id": 30,
+                    "course_id": 5062,
+                    "batch_type": "olympiad"
+                },
+                {
+                    "reference_id": "D-SSO1-21070311202207437897751",
+                    "valid_from": "2022-06-16 00:00:00",
+                    "valid_till": "2023-07-22 23:30:00",
+                    "quantity": 90,
+                    "type": "new_neo_session",
+                    "product_id": "SKU2",
+                    "language_of_instruction": "hindi",
+                    "flow_of_topics": "",
+                    "proficiency": "A2",
+                    "tutor_language_id": 2,
+                    "school_id": "",
+                    "orderId": "SSO1-2111281655010178",
+                    "batch_id": 25110,
+                    "cohort_id": 30,
+                    "course_id": 4760,
+                    "course_tag": "doubt_resolution",
+                    "courseSubTag": "Regular",
+                    "slots": [
+                        {
+                            "id": 65730,
+                            "day": "Friday",
+                            "start_time": "21:00",
+                            "end_time": "22:00",
+                            "is_mandatory": true
+                        }
+                    ],
+                    "status": "graduated"
+                },
+                {
+                    "reference_id": "E-SSO1-21112816550101785329949",
+                    "valid_from": "2022-12-30 00:00:00",
+                    "valid_till": "2023-07-22 23:30:00",
+                    "quantity": 90,
+                    "type": "new_neo_session",
+                    "product_id": "SKU2",
+                    "language_of_instruction": "hindi",
+                    "flow_of_topics": null,
+                    "proficiency": "A2",
+                    "tutor_language_id": 2,
+                    "school_id": "",
+                    "orderId": "SSO1-2111281655010178",
+                    "batch_id": 46871,
+                    "cohortId": 30,
+                    "course_id": 5502,
+                    "batch_type": "exam_prep",
+                    "status": "graduated"
+                },
+                {
+                    "reference_id": "E-SSO1-2111281655010178761714290006",
+                    "valid_from": "2023-03-23 05:30:00",
+                    "valid_till": "2023-07-22 23:30:00",
+                    "language_of_instruction": "Bengali",
+                    "proficiency": "A2",
+                    "tutor_language_id": 8,
+                    "quantity": 90,
+                    "type": "new_neo_session",
+                    "product_id": "SKU2",
+                    "school_id": null,
+                    "course_id": 6006,
+                    "course_sub_tag": "Regular",
+                    "batch_type": "regular",
+                    "course_type": "Neo",
+                    "cohortId": 22,
+                    "course_tag": "Elective",
+                    "batch_id": "63f370e9ce54b5044a7d8a8c",
+                    "orderId": "SSO1-2111281655010178",
+                    "slots": [
+                        {
+                            "day": "FRIDAY",
+                            "start_time": "1677417300",
+                            "end_time": "1677420900"
+                        }
+                    ],
+                    "flow_of_topics": null,
+                    "status": "active",
+                    "skuId": "UB06CB24",
+                    "programId": null,
+                    "enrolment_type": "grade_switch",
+                    "initiator": "cx_support",
+                    "countryId": 22,
+                    "countryName": "India",
+                    "state": "Maharashtra (MH)",
+                    "available_subjects": [
+                        "Social Studies"
+                    ],
+                    "electiveSubject": "Social Studies",
+                    "course_alias": "social_studies"
+                },
+                {
+                    "reference_id": "SSO1-2111281655010178491214290006",
+                    "valid_from": "2023-03-23 05:30:00",
+                    "valid_till": "2023-07-22 23:30:00",
+                    "language_of_instruction": "Hindi",
+                    "proficiency": "A2",
+                    "tutor_language_id": 2,
+                    "quantity": 90,
+                    "type": "new_neo_session",
+                    "product_id": "SKU2",
+                    "school_id": null,
+                    "course_id": 5907,
+                    "course_sub_tag": "Regular",
+                    "batch_type": "regular",
+                    "course_type": "Neo",
+                    "cohortId": 22,
+                    "course_tag": "Classroom",
+                    "batch_id": "63ee12beeee3830b317b5d78",
+                    "orderId": "SSO1-2111281655010178",
+                    "slots": [
+                        {
+                            "day": "TUESDAY",
+                            "start_time": "1677409200",
+                            "end_time": "1677412800"
+                        },
+                        {
+                            "day": "THURSDAY",
+                            "start_time": "1677409200",
+                            "end_time": "1677412800"
+                        },
+                        {
+                            "day": "SATURDAY",
+                            "start_time": "1677409200",
+                            "end_time": "1677412800"
+                        }
+                    ],
+                    "flow_of_topics": "cbse-6-2173-2130-lar",
+                    "status": "active",
+                    "skuId": "UB06CB24",
+                    "programId": null,
+                    "enrolment_type": "grade_switch",
+                    "initiator": "cx_support",
+                    "countryId": 22,
+                    "countryName": "India",
+                    "state": "",
+                    "available_subjects": [
+                        "Mathematics",
+                        "Science"
+                    ],
+                    "course_alias": "regular_neo"
+                },
+                {
+                    "reference_id": "E-SSO1-2111281655010178171714290006",
+                    "valid_from": "2023-03-23 05:30:00",
+                    "valid_till": "2023-07-22 23:30:00",
+                    "language_of_instruction": "Bengali",
+                    "proficiency": "A2",
+                    "tutor_language_id": 8,
+                    "quantity": 90,
+                    "type": "new_neo_session",
+                    "product_id": "SKU2",
+                    "school_id": null,
+                    "course_id": 5947,
+                    "course_sub_tag": "Regular",
+                    "batch_type": "regular",
+                    "course_type": "Neo",
+                    "cohortId": 22,
+                    "course_tag": "Elective",
+                    "batch_id": "63f36fb119f3f67967b25817",
+                    "orderId": "SSO1-2111281655010178",
+                    "slots": [
+                        {
+                            "day": "MONDAY",
+                            "start_time": "1677425400",
+                            "end_time": "1677429000"
+                        }
+                    ],
+                    "flow_of_topics": null,
+                    "status": "active",
+                    "skuId": "UB06CB24",
+                    "programId": null,
+                    "enrolment_type": "grade_switch",
+                    "initiator": "cx_support",
+                    "countryId": 22,
+                    "countryName": "India",
+                    "state": "Maharashtra (MH)",
+                    "available_subjects": [
+                        "English"
+                    ],
+                    "electiveSubject": "English",
+                    "course_alias": "english"
+                },
+                {
+                    "reference_id": "E-SSO1-21112816550101784226369",
+                    "valid_from": "2023-06-22 00:00:00",
+                    "valid_till": "2023-07-22 23:30:00",
+                    "quantity": 90,
+                    "type": "new_neo_session",
+                    "product_id": "SKU2",
+                    "language_of_instruction": "Hindi",
+                    "flow_of_topics": null,
+                    "initiator": "cx_support",
+                    "proficiency": "A2",
+                    "tutor_language_id": 2,
+                    "school_id": "",
+                    "batch_id": "6492ad769ebf4c2199663ab3",
+                    "cohort_id": 22,
+                    "course_id": 6722,
+                    "course_tag": "Elective",
+                    "course_alias": "exam_prep_olympiad",
+                    "course_sub_tag": "Regular",
+                    "enrolment_type": "new_subscription",
+                    "slots": [
+                        {
+                            "day": "MONDAY",
+                            "start_time": "17:45",
+                            "end_time": "18:45"
+                        },
+                        {
+                            "day": "WEDNESDAY",
+                            "start_time": "17:45",
+                            "end_time": "18:45"
+                        }
+                    ],
+                    "orderId": "SSO1-2111281655010178",
+                    "status": "active",
+                    "skuId": "UB06CB24",
+                    "programId": null,
+                    "state": "Maharashtra"
+                },
+                {
+                    "reference_id": "SSO1-2307220943420483078900",
+                    "valid_from": "2025-07-21 23:30:00",
+                    "valid_till": "2024-02-26 23:30:00",
+                    "quantity": 90,
+                    "type": "blc_session",
+                    "product_id": "SKU2",
+                    "slots": [
+                        {
+                            "day": "Tue",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Wed",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Thu",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Sat",
+                            "startTime": "5:0:PM",
+                            "endTime": "5:55:PM"
+                        },
+                        {
+                            "day": "Sat",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        }
+                    ],
+                    "orderId": "SSO1-2307220943420483",
+                    "cohortId": 22,
+                    "batch_id": 82388,
+                    "status": "active",
+                    "skuId": "CT06CB24",
+                    "programId": "BCRPUCSY0001"
+                },
+                {
+                    "reference_id": "Ex-SSO1-21112816550101785906951",
+                    "valid_from": "2023-11-03 00:00:00",
+                    "valid_till": "2024-05-30 23:30:30",
+                    "quantity": 90,
+                    "type": "complementary_neo_session",
+                    "language_of_instruction": "English",
+                    "flow_of_topics": null,
+                    "initiator": "cx_support",
+                    "proficiency": "A2",
+                    "tutor_language_id": 1,
+                    "school_id": "",
+                    "orderId": "SSO1-2111281655010178",
+                    "batch_id": "63f37164ce54b5044a7d8b58",
+                    "cohort_id": 22,
+                    "course_id": 6006,
+                    "course_tag": "Elective",
+                    "course_alias": "social_studies",
+                    "course_sub_tag": "Regular",
+                    "tenant": "byjus",
+                    "enrolment_type": "new_subscription",
+                    "slots": [
+                        {
+                            "day": "FRIDAY",
+                            "start_time": "18:45",
+                            "end_time": "19:45"
+                        }
+                    ],
+                    "status": "active",
+                    "state": "default",
+                    "batch_type": "Regular",
+                    "available_subjects": [
+                        "Social Studies"
+                    ]
+                },
+                {
+                    "reference_id": "Ex-SSO1-21112816550101785425508",
+                    "valid_from": "2024-01-06 00:00:00",
+                    "valid_till": "2024-05-30 23:30:30",
+                    "quantity": 90,
+                    "type": "complementary_neo_session",
+                    "language_of_instruction": "Bengali",
+                    "flow_of_topics": null,
+                    "initiator": "cx_support",
+                    "proficiency": "A2",
+                    "tutor_language_id": 8,
+                    "school_id": "",
+                    "orderId": "SSO1-2111281655010178",
+                    "batch_id": "63f36fb3ce54b5044a7d8992",
+                    "cohort_id": 22,
+                    "course_id": 5947,
+                    "course_tag": "Elective",
+                    "course_alias": "english",
+                    "course_sub_tag": "Regular",
+                    "tenant": "byjus",
+                    "enrolment_type": "new_subscription",
+                    "slots": [
+                        {
+                            "day": "FRIDAY",
+                            "start_time": "17:45",
+                            "end_time": "18:45"
+                        }
+                    ],
+                    "status": "active",
+                    "state": "default",
+                    "available_subjects": [
+                        "English"
+                    ],
+                    "batch_type": "Regular"
+                },
+                {
+                    "reference_id": "SSO1-24022906542408640009020",
+                    "valid_from": "2024-04-28 00:00:00",
+                    "valid_till": "2024-04-05 23:30:00",
+                    "quantity": 90,
+                    "type": "blc_session",
+                    "product_id": "SKU2",
+                    "subscriptionLineItemId": "SH-SO-2402290654240864-ST06CB24",
+                    "slots": [
+                        {
+                            "day": "Tue",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Wed",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Thu",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Sat",
+                            "startTime": "5:0:PM",
+                            "endTime": "5:55:PM"
+                        },
+                        {
+                            "day": "Sat",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        }
+                    ],
+                    "orderId": "SSO1-2402290654240864",
+                    "cohortId": 22,
+                    "batch_id": 82388,
+                    "status": "active",
+                    "skuId": "BT06CB24",
+                    "programId": "BCRPUCSY0001"
+                },
+                {
+                    "reference_id": "SSO1-240229065424086400090206",
+                    "valid_from": "2024-04-07 00:00:00",
+                    "valid_till": "2025-05-31 23:30:00",
+                    "quantity": 90,
+                    "type": "blc_session",
+                    "product_id": "SKU2",
+                    "subscriptionLineItemId": "SH-SO-2402290654240864-ST07CB25",
+                    "slots": [
+                        {
+                            "day": "Tue",
+                            "startTime": "6:0:PM",
+                            "endTime": "7:0:PM"
+                        },
+                        {
+                            "day": "Tue",
+                            "startTime": "7:0:PM",
+                            "endTime": "8:0:PM"
+                        },
+                        {
+                            "day": "Thu",
+                            "startTime": "6:0:PM",
+                            "endTime": "7:0:PM"
+                        },
+                        {
+                            "day": "Sat",
+                            "startTime": "6:0:PM",
+                            "endTime": "7:0:PM"
+                        },
+                        {
+                            "day": "Sat",
+                            "startTime": "7:0:PM",
+                            "endTime": "8:0:PM"
+                        }
+                    ],
+                    "orderId": "SSO1-2402290654240864",
+                    "cohortId": 23,
+                    "batch_id": 147436,
+                    "status": "active"
+                }
+            ],
+            "identity": {
+                "account_id": "68b011c5-e33f-4505-afe5-1736d29d28ad",
+                "identity_id": "12f9025a-63bd-4c73-b5d0-daa66f296b25"
+            },
+            "order_lines": [
+                {
+                    "student_name": "Najran",
+                    "orderId": "SSO1-2111281655010178",
+                    "orderType": "SPLIT_PARENT",
+                    "order_line_ref": "SSO1-211128165501017810",
+                    "device_details": {
+                        "type": "Tablet",
+                        "name": "K-12 Lenovo Tablet (Add-on - BYJUS) (10 inch)(Rs. 13000)",
+                        "model_no": "Lenovo Tab4 10(X30L)",
+                        "manufacturer": "Lenovo",
+                        "referenceId": "940166"
+                    },
+                    "subscriptions": [
+                        {
+                            "cohort_id": 29,
+                            "addonValidity": "2022-05-31 23:30:00",
+                            "valid_from": "2021-11-28 00:00:00",
+                            "valid_till": "2024-02-29 07:00:00",
+                            "max_valid_till": "2024-05-31 23:59:59",
+                            "payment_mode": "emi",
+                            "status": "confirmed",
+                            "referenceId": "1147179",
+                            "orderId": "SSO1-2111281655010178",
+                            "type": "parity",
+                            "skuId": "UB04NA22",
+                            "grade": "4",
+                            "isFirstClass": true,
+                            "subscriptionType": "byjus_classes",
+                            "mediumOfInstruction": "english",
+                            "course_sub_type": "regular_course",
+                            "batch_id": 10280,
+                            "course_id": 3560,
+                            "one_to_mega_reference": "SSO1-21112816550101781009000",
+                            "one_to_mega_sessions": [
+                                {
+                                    "id": 46574,
+                                    "day": "Thursday",
+                                    "start_time": "16:30",
+                                    "end_time": "17:30",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 46573,
+                                    "day": "Wednesday",
+                                    "start_time": "16:30",
+                                    "end_time": "17:30",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 46572,
+                                    "day": "Tuesday",
+                                    "start_time": "16:30",
+                                    "end_time": "17:30",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 46571,
+                                    "day": "Monday",
+                                    "start_time": "16:30",
+                                    "end_time": "17:30",
+                                    "is_mandatory": true
+                                }
+                            ],
+                            "slots": [
+                                {
+                                    "id": 46574,
+                                    "day": "Thursday",
+                                    "start_time": "16:30",
+                                    "end_time": "17:30",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 46573,
+                                    "day": "Wednesday",
+                                    "start_time": "16:30",
+                                    "end_time": "17:30",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 46572,
+                                    "day": "Tuesday",
+                                    "start_time": "16:30",
+                                    "end_time": "17:30",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 46571,
+                                    "day": "Monday",
+                                    "start_time": "16:30",
+                                    "end_time": "17:30",
+                                    "is_mandatory": true
+                                }
+                            ]
+                        },
+                        {
+                            "cohort_id": 29,
+                            "addonValidity": "2022-05-31 23:30:00",
+                            "valid_from": "2021-11-28 00:00:00",
+                            "valid_till": "2024-02-29 07:00:00",
+                            "max_valid_till": "2024-05-31 23:59:59",
+                            "payment_mode": "emi",
+                            "status": "confirmed",
+                            "referenceId": "1147179",
+                            "orderId": "SSO1-2111281655010178",
+                            "type": "parity",
+                            "skuId": "UB04NA22",
+                            "grade": "4",
+                            "isFirstClass": true,
+                            "subscriptionType": "byjus_classes",
+                            "mediumOfInstruction": "english",
+                            "course_sub_type": "regular_course",
+                            "batch_id": 10431,
+                            "course_id": 3565,
+                            "one_to_mega_reference": "SSO1-21112816550101781009000R",
+                            "slots": [
+                                {
+                                    "id": 46574,
+                                    "day": "Thursday",
+                                    "start_time": "16:30",
+                                    "end_time": "17:30",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 46573,
+                                    "day": "Wednesday",
+                                    "start_time": "16:30",
+                                    "end_time": "17:30",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 46572,
+                                    "day": "Tuesday",
+                                    "start_time": "16:30",
+                                    "end_time": "17:30",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 46571,
+                                    "day": "Monday",
+                                    "start_time": "16:30",
+                                    "end_time": "17:30",
+                                    "is_mandatory": true
+                                }
+                            ],
+                            "batchType": "revision_batch"
+                        },
+                        {
+                            "cohort_id": 270,
+                            "valid_from": "2022-06-22 00:00:00",
+                            "valid_till": "2024-02-29 07:00:00",
+                            "max_valid_till": "2024-05-31 23:59:59",
+                            "payment_mode": "full_payment",
+                            "status": "confirmed",
+                            "referenceId": "1147403",
+                            "orderId": "SSO1-2107031120220743",
+                            "type": "parity",
+                            "skuId": "UB06CB23",
+                            "grade": "5",
+                            "isFirstClass": false,
+                            "subscriptionType": "byjus_classes",
+                            "productSelectionType": "byjus_aakash",
+                            "mediumOfInstruction": "english",
+                            "course_sub_type": "regular_course",
+                            "ExtraClasses": true,
+                            "one_to_mega_reference": "10091512492705909",
+                            "batch_id": 25784,
+                            "course_id": 4650
+                        },
+                        {
+                            "cohort_id": 30,
+                            "addonValidity": "2023-05-31 23:30:00",
+                            "valid_from": "2021-11-28 00:00:00",
+                            "valid_till": "2024-02-29 07:00:00",
+                            "max_valid_till": "2024-05-31 23:59:59",
+                            "payment_mode": "emi",
+                            "status": "confirmed",
+                            "referenceId": "1817096",
+                            "orderId": "SSO1-2111281655010178",
+                            "type": "parity",
+                            "skuId": "UB05NA23",
+                            "grade": "5",
+                            "isFirstClass": true,
+                            "subscriptionType": "byjus_classes",
+                            "course_id": 4232,
+                            "batch_id": 13703,
+                            "slots": [
+                                {
+                                    "id": 46557,
+                                    "day": "Saturday",
+                                    "start_time": "15:30",
+                                    "end_time": "16:30",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 46556,
+                                    "day": "Thursday",
+                                    "start_time": "15:30",
+                                    "end_time": "16:30",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 46555,
+                                    "day": "Tuesday",
+                                    "start_time": "15:30",
+                                    "end_time": "16:30",
+                                    "is_mandatory": true
+                                }
+                            ],
+                            "one_to_mega_reference": "SSO1-2111281655010178947756",
+                            "one_to_mega_sessions": [
+                                {
+                                    "id": 46557,
+                                    "day": "Saturday",
+                                    "start_time": "15:30",
+                                    "end_time": "16:30",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 46556,
+                                    "day": "Thursday",
+                                    "start_time": "15:30",
+                                    "end_time": "16:30",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 46555,
+                                    "day": "Tuesday",
+                                    "start_time": "15:30",
+                                    "end_time": "16:30",
+                                    "is_mandatory": true
+                                }
+                            ],
+                            "course_sub_type": "regular_course",
+                            "mediumOfInstruction": "english",
+                            "gradeSwitch": true
+                        },
+                        {
+                            "cohort_id": 22,
+                            "addonValidity": "2024-05-31 23:30:00",
+                            "valid_from": "2021-11-28 00:00:00",
+                            "valid_till": "2024-02-29 07:00:00",
+                            "max_valid_till": "2024-05-31 23:59:59",
+                            "payment_mode": "emi",
+                            "status": "confirmed",
+                            "referenceId": "1817102",
+                            "orderId": "SSO1-2111281655010178",
+                            "type": "parity",
+                            "skuId": "UB06CB24",
+                            "grade": "6",
+                            "isFirstClass": false,
+                            "subscriptionType": "byjus_learning_centre",
+                            "batch_id": 82388,
+                            "course_id": 1135,
+                            "last_updated_at": "2023-02-27 04:55:14",
+                            "mediumOfInstruction": "English",
+                            "one_to_mega_sessions": [
+                                {
+                                    "day": "TUESDAY",
+                                    "start_time": "1677409200",
+                                    "end_time": "1677412800"
+                                },
+                                {
+                                    "day": "THURSDAY",
+                                    "start_time": "1677409200",
+                                    "end_time": "1677412800"
+                                },
+                                {
+                                    "day": "SATURDAY",
+                                    "start_time": "1677409200",
+                                    "end_time": "1677412800"
+                                }
+                            ],
+                            "slots": [
+                                {
+                                    "day": "TUESDAY",
+                                    "start_time": "1677409200",
+                                    "end_time": "1677412800"
+                                },
+                                {
+                                    "day": "THURSDAY",
+                                    "start_time": "1677409200",
+                                    "end_time": "1677412800"
+                                },
+                                {
+                                    "day": "SATURDAY",
+                                    "start_time": "1677409200",
+                                    "end_time": "1677412800"
+                                }
+                            ],
+                            "blcOrderId": "SSO1-2307220943420483",
+                            "blcReference": "SSO1-2307220943420483078900",
+                            "blcSessions": [
+                                {
+                                    "day": "Tue",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "6:55:PM"
+                                },
+                                {
+                                    "day": "Wed",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "6:55:PM"
+                                },
+                                {
+                                    "day": "Thu",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "6:55:PM"
+                                },
+                                {
+                                    "day": "Sat",
+                                    "startTime": "5:0:PM",
+                                    "endTime": "5:55:PM"
+                                },
+                                {
+                                    "day": "Sat",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "6:55:PM"
+                                }
+                            ],
+                            "expired_one_to_mega_details": [
+                                {
+                                    "one_to_mega_reference": "SSO1-2111281655010178491214290006",
+                                    "one_to_mega_sessions": [
+                                        {
+                                            "day": "TUESDAY",
+                                            "start_time": "1677409200",
+                                            "end_time": "1677412800"
+                                        },
+                                        {
+                                            "day": "THURSDAY",
+                                            "start_time": "1677409200",
+                                            "end_time": "1677412800"
+                                        },
+                                        {
+                                            "day": "SATURDAY",
+                                            "start_time": "1677409200",
+                                            "end_time": "1677412800"
+                                        }
+                                    ],
+                                    "course_id": 5907,
+                                    "batch_id": "63ee12beeee3830b317b5d78"
+                                }
+                            ]
+                        }
+                    ],
+                    "setup_details": {
+                        "status": "setup_done",
+                        "isSetupDone": true
+                    }
+                },
+                {
+                    "student_name": "Najran",
+                    "orderType": "SPLIT_PARENT",
+                    "device_details": {
+                        "type": "Tablet",
+                        "name": "K-12 Lenovo Tablet (Add-on - BYJUS) (10 inch)(Rs. 13000)",
+                        "model_no": "Lenovo Tab4 10(X30L)",
+                        "manufacturer": "Lenovo",
+                        "referenceId": "940166"
+                    },
+                    "setup_details": {
+                        "status": "setup_done",
+                        "isSetupDone": true
+                    },
+                    "subscriptions": [
+                        {
+                            "cohort_id": 270,
+                            "addonValidity": "2022-07-08 23:30:00",
+                            "valid_from": "2022-05-24 00:00:00",
+                            "valid_till": "2022-07-08 23:30:00",
+                            "max_valid_till": "2022-07-08 23:30:00",
+                            "payment_mode": "full_payment",
+                            "status": "confirmed",
+                            "referenceId": "1817096",
+                            "isFirstClass": false,
+                            "course_sub_type": "regular_course",
+                            "orderId": "SSO1-2022052509433928",
+                            "type": "parity",
+                            "skuId": "UB05NA23",
+                            "subscriptionType": "byjus_classes",
+                            "one_to_mega_reference": "SSO1-202205250943392873255",
+                            "expired_one_to_mega_details": {},
+                            "course_id": 4650,
+                            "batch_id": 23038,
+                            "slots": [
+                                {
+                                    "id": 65636,
+                                    "day": "Sunday",
+                                    "start_time": "16:00",
+                                    "end_time": "17:00",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 65635,
+                                    "day": "Saturday",
+                                    "start_time": "14:00",
+                                    "end_time": "15:00",
+                                    "is_mandatory": true
+                                }
+                            ],
+                            "grade": "5",
+                            "one_to_mega_sessions": [
+                                {
+                                    "id": 65636,
+                                    "day": "Sunday",
+                                    "start_time": "16:00",
+                                    "end_time": "17:00",
+                                    "is_mandatory": true
+                                },
+                                {
+                                    "id": 65635,
+                                    "day": "Saturday",
+                                    "start_time": "14:00",
+                                    "end_time": "15:00",
+                                    "is_mandatory": true
+                                }
+                            ],
+                            "ExtraClasses": true,
+                            "mediumOfInstruction": "english"
+                        }
+                    ],
+                    "orderId": "SSO1-2022052509433928",
+                    "order_line_ref": "SSO1-202205250943392810"
+                },
+                {
+                    "student_name": "Najran",
+                    "order_line_ref": "SSO1-240229065424086400",
+                    "orderId": "SO-2402290654240864",
+                    "orderType": "SINGLE",
+                    "initial_max_valid_till": "2026-05-31 23:59:59",
+                    "device_details": {},
+                    "subscriptions": [
+                        {
+                            "cohort_id": 22,
+                            "addonValidity": "2024-05-31 23:30:00",
+                            "valid_from": "2024-02-29 00:00:00",
+                            "valid_till": "2024-05-31 23:30:00",
+                            "max_valid_till": "2026-05-31 23:59:59",
+                            "payment_mode": "full_payment",
+                            "status": "confirmed",
+                            "referenceId": "ST06CB24",
+                            "orderId": "SSO1-2402290654240864",
+                            "type": "streaming",
+                            "skuId": "ST06CB24",
+                            "grade": "6",
+                            "subscriptionId": "SH-SO-2402290654240864-ST06CB24",
+                            "programId": "BTLAKXAS0001",
+                            "subscriptionStatus": "active",
+                            "isFirstClass": true,
+                            "subscriptionType": "byjus_learning_centre",
+                            "productSelectionType": "byjus_learning_centre",
+                            "batch_id": 82388,
+                            "course_id": 1135,
+                            "blcReference": "SSO1-24022906542408640009020",
+                            "blcSessions": [
+                                {
+                                    "day": "Tue",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "6:55:PM"
+                                },
+                                {
+                                    "day": "Wed",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "6:55:PM"
+                                },
+                                {
+                                    "day": "Thu",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "6:55:PM"
+                                },
+                                {
+                                    "day": "Sat",
+                                    "startTime": "5:0:PM",
+                                    "endTime": "5:55:PM"
+                                },
+                                {
+                                    "day": "Sat",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "6:55:PM"
+                                }
+                            ]
+                        },
+                        {
+                            "cohort_id": 23,
+                            "addonValidity": "2025-05-31 23:30:00",
+                            "valid_from": "2024-02-29 00:00:00",
+                            "valid_till": "2025-05-31 23:30:00",
+                            "max_valid_till": "2026-05-31 23:59:59",
+                            "payment_mode": "full_payment",
+                            "status": "confirmed",
+                            "referenceId": "ST07CB25",
+                            "orderId": "SSO1-2402290654240864",
+                            "type": "streaming",
+                            "skuId": "ST07CB25",
+                            "grade": "7",
+                            "subscriptionId": "SH-SO-2402290654240864-ST07CB25",
+                            "programId": "BTLAKXAS0001",
+                            "subscriptionStatus": "active",
+                            "isFirstClass": false,
+                            "subscriptionType": "byjus_learning_centre",
+                            "productSelectionType": "byjus_learning_centre",
+                            "batch_id": 147436,
+                            "course_id": 1146,
+                            "blcReference": "SSO1-240229065424086400090206",
+                            "blcSessions": [
+                                {
+                                    "day": "Tue",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "7:0:PM"
+                                },
+                                {
+                                    "day": "Tue",
+                                    "startTime": "7:0:PM",
+                                    "endTime": "8:0:PM"
+                                },
+                                {
+                                    "day": "Thu",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "7:0:PM"
+                                },
+                                {
+                                    "day": "Sat",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "7:0:PM"
+                                },
+                                {
+                                    "day": "Sat",
+                                    "startTime": "7:0:PM",
+                                    "endTime": "8:0:PM"
+                                }
+                            ]
+                        },
+                        {
+                            "cohort_id": 14,
+                            "addonValidity": "2026-05-31 23:30:00",
+                            "valid_from": "2024-02-29 00:00:00",
+                            "valid_till": "2026-05-31 23:30:00",
+                            "max_valid_till": "2026-05-31 23:59:59",
+                            "payment_mode": "full_payment",
+                            "status": "confirmed",
+                            "referenceId": "ST08CB26",
+                            "orderId": "SSO1-2402290654240864",
+                            "type": "streaming",
+                            "skuId": "ST08CB26",
+                            "grade": "8",
+                            "subscriptionId": "SH-SO-2402290654240864-ST08CB26",
+                            "programId": "BTLAKXAS0001",
+                            "subscriptionStatus": "created",
+                            "isFirstClass": false,
+                            "subscriptionType": "byjus_learning_centre",
+                            "productSelectionType": "byjus_learning_centre"
+                        }
+                    ]
+                }
+            ],
+            "primaryNumber": "+91-9923032884",
+            "secondaryNumber": "+91-9823029484",
+            "studentAdditionalDetails": {
+                "grade": "6",
+                "board": "CBSE",
+                "cohortId": 22,
+                "courseId": "N/A",
+                "batchId": "N/A",
+                "type": "student",
+                "courseInfo": {
+                    "batchId": "82388",
+                    "batchName": "Standard_VI_22_CBSE_Aurangabad_Aurangabad-CIDCO_Colony_52_2023_4_4_0aae",
+                    "startDate": "2023-04-04T00:00:00.000Z",
+                    "endDate": "2024-03-17T00:00:00.000Z",
+                    "batchType": "weekday",
+                    "centreId": "337",
+                    "status": "active",
+                    "cohortId": 22,
+                    "commencementDate": null,
+                    "productType": "HTP_BLC",
+                    "blcCourse": {
+                        "courseAliasId": "1135",
+                        "courseAliasName": "22_105_2022_3_21_df80"
+                    },
+                    "slots": [
+                        {
+                            "day": "Sat",
+                            "startTime": "5:0:PM",
+                            "endTime": "5:55:PM"
+                        },
+                        {
+                            "day": "Sat",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Thu",
+                            "startTime": "5:0:PM",
+                            "endTime": "5:55:PM"
+                        },
+                        {
+                            "day": "Thu",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Tue",
+                            "startTime": "5:0:PM",
+                            "endTime": "5:55:PM"
+                        },
+                        {
+                            "day": "Tue",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Wed",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        }
+                    ],
+                    "batchOffers": []
+                },
+                "sessionsInfo": [
+                    {
+                        "day": "Sat",
+                        "start_time": "5:0:PM",
+                        "end_time": "5:55:PM",
+                        "is_mandatory": ""
+                    },
+                    {
+                        "day": "Sat",
+                        "start_time": "6:0:PM",
+                        "end_time": "6:55:PM",
+                        "is_mandatory": ""
+                    },
+                    {
+                        "day": "Thu",
+                        "start_time": "5:0:PM",
+                        "end_time": "5:55:PM",
+                        "is_mandatory": ""
+                    },
+                    {
+                        "day": "Thu",
+                        "start_time": "6:0:PM",
+                        "end_time": "6:55:PM",
+                        "is_mandatory": ""
+                    },
+                    {
+                        "day": "Tue",
+                        "start_time": "5:0:PM",
+                        "end_time": "5:55:PM",
+                        "is_mandatory": ""
+                    },
+                    {
+                        "day": "Tue",
+                        "start_time": "6:0:PM",
+                        "end_time": "6:55:PM",
+                        "is_mandatory": ""
+                    },
+                    {
+                        "day": "Wed",
+                        "start_time": "6:0:PM",
+                        "end_time": "6:55:PM",
+                        "is_mandatory": ""
+                    }
+                ],
+                "course": "K10/K12",
+                "category": "BHLP",
+                "maxValidity": "2026-05-31T23:59:59.000Z"
+            },
+            "studentId": "1009151249",
+            "student_details": {
+                "full_name": "Najran",
+                "studentId": "Najran-1",
+                "city": "Aurangabad",
+                "email": "nazianahdi29@gmail.com",
+                "mobile": "+91-9923032884",
+                "siblingNumber": 0,
+                "zipCode": "431001",
+                "locations": [
+                    {
+                        "city": "Aurangabad(MH)",
+                        "zipCode": "431001",
+                        "country": "India",
+                        "state": "Maharashtra",
+                        "addressType": "shipping",
+                        "address": "Aarfi Building\n Above Metro opticals\n Nehru Bhavan  Buddi lane . Aurangabad-"
+                    }
+                ],
+                "neoExamProficiency": "A2",
+                "school_details": [
+                    {
+                        "schoolId": null,
+                        "schoolName": "",
+                        "schoolPin": null,
+                        "schoolAddress": "",
+                        "googleSchoolId": "",
+                        "schoolCity": "",
+                        "schoolState": "",
+                        "status": "Deactivated"
+                    },
+                    {
+                        "schoolName": "paramount English school",
+                        "schoolId": "",
+                        "schoolAddress": "",
+                        "schoolCity": "",
+                        "schoolState": "Maharashtra",
+                        "googleSchoolId": "",
+                        "schoolPin": null,
+                        "status": "Active"
+                    }
+                ]
+            }
+        }
+    ],
+    "page": 1,
+    "pages": 1,
+    "limit": 1,
+    "total": 1
+}

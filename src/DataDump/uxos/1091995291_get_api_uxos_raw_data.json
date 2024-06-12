@@ -1,0 +1,491 @@
+{
+    "docs": [
+        {
+            "_id": "655d8a62822d90d9eec8d1ee",
+            "addons": [
+                {
+                    "reference_id": "SSO1-23112113271400690009000",
+                    "valid_from": "2023-11-21 00:00:00",
+                    "valid_till": "2024-05-28 23:30:00",
+                    "quantity": 90,
+                    "type": "blc_session",
+                    "product_id": "SKU2",
+                    "subscriptionLineItemId": "SH-SO-2311211327140069-ST09CB24",
+                    "slots": [
+                        {
+                            "day": "Tue",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Tue",
+                            "startTime": "7:0:PM",
+                            "endTime": "7:55:PM"
+                        },
+                        {
+                            "day": "Thu",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Sat",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Sat",
+                            "startTime": "7:0:PM",
+                            "endTime": "7:55:PM"
+                        }
+                    ],
+                    "orderId": "SSO1-2311211327140069",
+                    "cohortId": 15,
+                    "batch_id": 81571,
+                    "status": "active",
+                    "skuId": "BT09CB24",
+                    "programId": "BCRPUCSY0001"
+                },
+                {
+                    "reference_id": "Ex-SSO1-23112113271400699964558",
+                    "valid_from": "2023-11-24 00:00:00",
+                    "valid_till": "2024-05-30 23:30:30",
+                    "quantity": 90,
+                    "type": "complementary_neo_session",
+                    "language_of_instruction": "Hindi",
+                    "flow_of_topics": null,
+                    "initiator": "cx_support",
+                    "proficiency": "A2",
+                    "tutor_language_id": null,
+                    "school_id": "",
+                    "orderId": "SSO1-2311211327140069",
+                    "batch_id": "63f3700c19f3f67967b25895",
+                    "cohort_id": 15,
+                    "course_id": 6011,
+                    "course_tag": "Elective",
+                    "course_alias": "english",
+                    "course_sub_tag": "Regular",
+                    "tenant": "byjus",
+                    "enrolment_type": "new_subscription",
+                    "slots": [
+                        {
+                            "day": "WEDNESDAY",
+                            "start_time": "20:00",
+                            "end_time": "21:00"
+                        }
+                    ],
+                    "status": "active",
+                    "state": "default",
+                    "available_subjects": [
+                        "English"
+                    ]
+                },
+                {
+                    "reference_id": "Ex-SSO1-23112113271400692073676",
+                    "valid_from": "2023-11-24 00:00:00",
+                    "valid_till": "2024-05-30 23:30:30",
+                    "quantity": 90,
+                    "type": "complementary_neo_session",
+                    "language_of_instruction": "Hindi",
+                    "flow_of_topics": null,
+                    "initiator": "cx_support",
+                    "proficiency": "A2",
+                    "tutor_language_id": null,
+                    "school_id": "",
+                    "orderId": "SSO1-2311211327140069",
+                    "batch_id": "63f3713219f3f67967b25991",
+                    "cohort_id": 15,
+                    "course_id": 6012,
+                    "course_tag": "Elective",
+                    "course_alias": "social_studies",
+                    "course_sub_tag": "Regular",
+                    "tenant": "byjus",
+                    "enrolment_type": "new_subscription",
+                    "slots": [
+                        {
+                            "day": "FRIDAY",
+                            "start_time": "21:00",
+                            "end_time": "22:00"
+                        }
+                    ],
+                    "status": "active",
+                    "state": "default",
+                    "batch_type": "Regular",
+                    "available_subjects": [
+                        "Social Studies"
+                    ]
+                },
+                {
+                    "reference_id": "SSO1-231121132714006900090006",
+                    "valid_from": "2024-04-07 00:00:00",
+                    "valid_till": "2025-05-31 23:30:00",
+                    "quantity": 90,
+                    "type": "blc_session",
+                    "product_id": "SKU2",
+                    "subscriptionLineItemId": "SH-SO-2311211327140069-ST10CB25",
+                    "slots": [
+                        {
+                            "day": "Sun",
+                            "startTime": "12:0:PM",
+                            "endTime": "1:0:PM"
+                        },
+                        {
+                            "day": "Sun",
+                            "startTime": "1:0:PM",
+                            "endTime": "2:0:PM"
+                        },
+                        {
+                            "day": "Wed",
+                            "startTime": "6:0:PM",
+                            "endTime": "7:0:PM"
+                        },
+                        {
+                            "day": "Wed",
+                            "startTime": "7:0:PM",
+                            "endTime": "8:0:PM"
+                        },
+                        {
+                            "day": "Fri",
+                            "startTime": "7:0:PM",
+                            "endTime": "8:0:PM"
+                        }
+                    ],
+                    "orderId": "SSO1-2311211327140069",
+                    "cohortId": 16,
+                    "batch_id": 150153,
+                    "status": "deactivated",
+                    "cancelledAt": "2024-05-29 08:05:30"
+                },
+                {
+                    "reference_id": "SSO1-2311211327140069000900066",
+                    "valid_from": "2024-05-30 00:00:00",
+                    "valid_till": "2025-05-31 23:30:00",
+                    "quantity": 90,
+                    "type": "blc_session",
+                    "product_id": "SKU2",
+                    "subscriptionLineItemId": "SH-SO-2311211327140069-ST10CB25",
+                    "slots": [
+                        {
+                            "day": "Sun",
+                            "startTime": "12:0:PM",
+                            "endTime": "1:0:PM"
+                        },
+                        {
+                            "day": "Sun",
+                            "startTime": "1:0:PM",
+                            "endTime": "2:0:PM"
+                        },
+                        {
+                            "day": "Wed",
+                            "startTime": "6:0:PM",
+                            "endTime": "7:0:PM"
+                        },
+                        {
+                            "day": "Wed",
+                            "startTime": "7:0:PM",
+                            "endTime": "8:0:PM"
+                        },
+                        {
+                            "day": "Fri",
+                            "startTime": "7:0:PM",
+                            "endTime": "8:0:PM"
+                        }
+                    ],
+                    "orderId": "SSO1-2311211327140069",
+                    "cohortId": 16,
+                    "batch_id": 150153,
+                    "status": "active"
+                }
+            ],
+            "identity": {
+                "account_id": "bd20b5d8-9ca6-4c5f-b743-7733a897b4ab",
+                "identity_id": "48a343ac-3114-4f9f-bbd6-8867e6e2274c"
+            },
+            "order_lines": [
+                {
+                    "student_name": "pranjal",
+                    "orderId": "SO-2311211327140069",
+                    "orderType": "SPLIT_PARENT",
+                    "order_line_ref": "SSO1-231121132714006900",
+                    "initial_max_valid_till": "2025-05-31 23:59:59",
+                    "device_details": {},
+                    "subscriptions": [
+                        {
+                            "cohort_id": 15,
+                            "addonValidity": "2024-05-31 23:30:00",
+                            "valid_from": "2023-11-22 00:00:00",
+                            "valid_till": "2024-05-31 23:30:00",
+                            "max_valid_till": "2025-05-31 23:59:59",
+                            "payment_mode": "emi",
+                            "status": "confirmed",
+                            "referenceId": "ST09CB24",
+                            "orderId": "SSO1-2311211327140069",
+                            "type": "streaming",
+                            "skuId": "ST09CB24",
+                            "grade": "Streaming 9",
+                            "subscriptionId": "SH-SO-2311211327140069-ST09CB24",
+                            "programId": "BTLAKXAS0001",
+                            "subscriptionStatus": "active",
+                            "isFirstClass": true,
+                            "subscriptionType": "byjus_learning_centre",
+                            "productSelectionType": "byjus_learning_centre",
+                            "batch_id": 81571,
+                            "course_id": 1144,
+                            "blcReference": "SSO1-23112113271400690009000",
+                            "blcSessions": [
+                                {
+                                    "day": "Tue",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "6:55:PM"
+                                },
+                                {
+                                    "day": "Tue",
+                                    "startTime": "7:0:PM",
+                                    "endTime": "7:55:PM"
+                                },
+                                {
+                                    "day": "Thu",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "6:55:PM"
+                                },
+                                {
+                                    "day": "Sat",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "6:55:PM"
+                                },
+                                {
+                                    "day": "Sat",
+                                    "startTime": "7:0:PM",
+                                    "endTime": "7:55:PM"
+                                }
+                            ]
+                        },
+                        {
+                            "cohort_id": 16,
+                            "addonValidity": "2025-05-31 23:30:00",
+                            "valid_from": "2023-11-22 00:00:00",
+                            "valid_till": "2025-05-31 23:30:00",
+                            "max_valid_till": "2025-05-31 23:59:59",
+                            "payment_mode": "emi",
+                            "status": "confirmed",
+                            "referenceId": "ST10CB25",
+                            "orderId": "SSO1-2311211327140069",
+                            "type": "streaming",
+                            "skuId": "ST10CB25",
+                            "grade": "Streaming 10",
+                            "subscriptionId": "SH-SO-2311211327140069-ST10CB25",
+                            "programId": "BTLAKXAS0001",
+                            "subscriptionStatus": "active",
+                            "isFirstClass": false,
+                            "subscriptionType": "byjus_learning_centre",
+                            "productSelectionType": "byjus_learning_centre",
+                            "batch_id": 150153,
+                            "course_id": 1152,
+                            "blcReference": "SSO1-2311211327140069000900066",
+                            "blcSessions": [
+                                {
+                                    "day": "Sun",
+                                    "startTime": "12:0:PM",
+                                    "endTime": "1:0:PM"
+                                },
+                                {
+                                    "day": "Sun",
+                                    "startTime": "1:0:PM",
+                                    "endTime": "2:0:PM"
+                                },
+                                {
+                                    "day": "Wed",
+                                    "startTime": "6:0:PM",
+                                    "endTime": "7:0:PM"
+                                },
+                                {
+                                    "day": "Wed",
+                                    "startTime": "7:0:PM",
+                                    "endTime": "8:0:PM"
+                                },
+                                {
+                                    "day": "Fri",
+                                    "startTime": "7:0:PM",
+                                    "endTime": "8:0:PM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "primaryNumber": "+91-9012131188",
+            "studentAdditionalDetails": {
+                "grade": "9",
+                "board": "CBSE",
+                "cohortId": 15,
+                "courseId": "N/A",
+                "batchId": "N/A",
+                "type": "student",
+                "courseInfo": {
+                    "batchId": "81571",
+                    "batchName": "Standard_IX_15_CBSE_Hardwar_Roorkee-Civil_Lines_52_2023_4_4_34e0",
+                    "startDate": "2023-04-04T00:00:00.000Z",
+                    "endDate": "2024-03-31T00:00:00.000Z",
+                    "batchType": "weekday",
+                    "centreId": "429",
+                    "status": "active",
+                    "cohortId": 15,
+                    "commencementDate": null,
+                    "productType": "HTP_BLC",
+                    "blcCourse": {
+                        "courseAliasId": "1144",
+                        "courseAliasName": "15_105_2022_3_22_403e"
+                    },
+                    "slots": [
+                        {
+                            "day": "Sat",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Sat",
+                            "startTime": "7:0:PM",
+                            "endTime": "7:55:PM"
+                        },
+                        {
+                            "day": "Sat",
+                            "startTime": "8:0:PM",
+                            "endTime": "8:55:PM"
+                        },
+                        {
+                            "day": "Thu",
+                            "startTime": "5:0:PM",
+                            "endTime": "5:55:PM"
+                        },
+                        {
+                            "day": "Thu",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Tue",
+                            "startTime": "6:0:PM",
+                            "endTime": "6:55:PM"
+                        },
+                        {
+                            "day": "Tue",
+                            "startTime": "7:0:PM",
+                            "endTime": "7:55:PM"
+                        },
+                        {
+                            "day": "Tue",
+                            "startTime": "8:0:PM",
+                            "endTime": "8:55:PM"
+                        }
+                    ],
+                    "batchOffers": []
+                },
+                "sessionsInfo": [
+                    {
+                        "day": "Sat",
+                        "start_time": "6:0:PM",
+                        "end_time": "6:55:PM",
+                        "is_mandatory": ""
+                    },
+                    {
+                        "day": "Sat",
+                        "start_time": "7:0:PM",
+                        "end_time": "7:55:PM",
+                        "is_mandatory": ""
+                    },
+                    {
+                        "day": "Sat",
+                        "start_time": "8:0:PM",
+                        "end_time": "8:55:PM",
+                        "is_mandatory": ""
+                    },
+                    {
+                        "day": "Thu",
+                        "start_time": "5:0:PM",
+                        "end_time": "5:55:PM",
+                        "is_mandatory": ""
+                    },
+                    {
+                        "day": "Thu",
+                        "start_time": "6:0:PM",
+                        "end_time": "6:55:PM",
+                        "is_mandatory": ""
+                    },
+                    {
+                        "day": "Tue",
+                        "start_time": "6:0:PM",
+                        "end_time": "6:55:PM",
+                        "is_mandatory": ""
+                    },
+                    {
+                        "day": "Tue",
+                        "start_time": "7:0:PM",
+                        "end_time": "7:55:PM",
+                        "is_mandatory": ""
+                    },
+                    {
+                        "day": "Tue",
+                        "start_time": "8:0:PM",
+                        "end_time": "8:55:PM",
+                        "is_mandatory": ""
+                    }
+                ],
+                "course": "K10/K12",
+                "category": "BHLP",
+                "maxValidity": "2025-05-31T23:59:59.000Z"
+            },
+            "studentId": "1091995291",
+            "student_details": {
+                "full_name": "pranjal",
+                "studentId": "pranjal-1",
+                "email": "parveshkumar86@gmail.com",
+                "mobile": "+91-9012131188",
+                "siblingNumber": 0,
+                "city": "Haridwar",
+                "zipCode": "247667",
+                "schoolName": "Skyward Senior Secondary School Krishna Nagar",
+                "schoolId": "DELH14827",
+                "schoolAddress": "Lane 20; Krishna Nagar; Roorkee; Uttarakhand; Roorkee; Uttarakhand 247667",
+                "schoolCity": "",
+                "schoolState": "Uttarakhand",
+                "mathMarks": null,
+                "proficiency": "",
+                "scienceMarks": null,
+                "bloodGroup": "",
+                "centreName": "",
+                "emergencyContact": "",
+                "parentName": "parvesh kumar",
+                "residentialAddress": "",
+                "attachments": {},
+                "socialInitiativeStudent": "",
+                "socialInitiativeName": "",
+                "centreAddress": "",
+                "locations": [
+                    {
+                        "city": "Haridwar",
+                        "zipCode": "247667",
+                        "country": "India",
+                        "state": "Uttarakhand",
+                        "addressType": "shipping",
+                        "address": "btc center plot 33\n civil lines jadugar road\n near st anns school\n Roorkee City SO"
+                    }
+                ],
+                "school_details": [
+                    {
+                        "schoolName": "Skyward Senior Secondary School Krishna Nagar",
+                        "schoolId": "DELH14827",
+                        "schoolAddress": "Lane 20; Krishna Nagar; Roorkee; Uttarakhand; Roorkee; Uttarakhand 247667",
+                        "schoolCity": "",
+                        "schoolState": "Uttarakhand",
+                        "googleSchoolId": "",
+                        "schoolPin": null,
+                        "status": "Active"
+                    }
+                ]
+            }
+        }
+    ],
+    "page": 1,
+    "pages": 1,
+    "limit": 1,
+    "total": 1
+}

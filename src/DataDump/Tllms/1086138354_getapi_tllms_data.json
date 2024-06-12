@@ -1,0 +1,23 @@
+{
+    "Logistic_Order_Details": {
+        "CREATED AT": "April 10, 2024 19:10",
+        "ID": "7740046",
+        "ORDER": "SSO1-2404101335000761",
+        "SUBSCRIBER REGION": "EMPTY",
+        "USER": "P . Sivakarthikeyan"
+    },
+    "Logistic_Sessions": [],
+    "Subscription_Details": [
+        {
+            "ACTIONS": "--",
+            "CODE": "WJQK53",
+            "COURSE": "8th Grade",
+            "COURSE END DATE": "May 31, 2025",
+            "MAX VALID TILL": "May 31, 2025",
+            "PROGRAM TYPE": "BTLP",
+            "STATUS": "confirmed",
+            "USER": "122470882",
+            "VALID TILL": "May 31, 2025"
+        }
+    ]
+}

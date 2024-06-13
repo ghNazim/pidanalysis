@@ -9,7 +9,7 @@ function ProductRow({product}){
   return (
     <tr>
       <td>{product.name}</td>
-      <td>{product.validity + product.validityMonth}</td>
+      <td>{(product.validity||"") + ", "+  (product.validityMonth|| "")}</td>
     </tr>
   );
 }

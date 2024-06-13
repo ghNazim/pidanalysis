@@ -2,13 +2,14 @@ import React, { useContext } from 'react'
 import { Tab, Tabs } from "react-bootstrap";
 import { DataContext } from '../Contexts/DataContext';
 import SessionItem from './Tllms/SessionItem';
+import Loading from './Loading';
 
 function TllmsContents() {
-  const {tllmsData} = useContext(DataContext)
-  const tabArray = tllmsData["Logistic_Sessions"];
+  const { tllmsData, tllmsLoading } = useContext(DataContext);
+  let tabArray = tllmsData["Logistic_Sessions"];
   
   return (
-    <Tabs defaultActiveKey="neo-sessions" id="sub-tabs">
+   tllmsLoading? <Loading/>: <Tabs defaultActiveKey="neo-sessions" id="sub-tabs">
       {tabArray.map((data,index) => {
         
         const k = Object.keys(data)[0]

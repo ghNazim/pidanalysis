@@ -1,15 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Container } from 'react-bootstrap';
-import { batchArray } from '../DataDump/Batches/batchdetails';
 import BatchCard from './TTH/BatchCard';
+import { DataContext } from '../Contexts/DataContext';
 function TthContents() {
+const { allBatches } = useContext(DataContext);
+
   return (
     <Container className="mt-4">
-      {batchArray.map((item, index) => (
-        <BatchCard batch={item} key={index} />
+      {allBatches.map((item, index) => (
+        <BatchCard id={item} key={index} />
       ))}
     </Container>
   );
 }
-
 export default TthContents

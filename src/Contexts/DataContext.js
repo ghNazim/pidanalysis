@@ -24,8 +24,29 @@ const DataProvider = ({ children }) => {
   const [uxosData, setUxosData] = useState(uxosdata.docs[0]);
   const [tllmsData, setTllmsData] = useState(tllmsdata);
   const [errorArray,setErrorArray] = useState(error)
+  const [allBatches, setAllBatches] = useState([]);
+  const [pid,setPid] = useState("0000000000")
+  const [uxosLoading,setUxosLoading] = useState(false)
+  const [tllmsLoading,setTllmsLoading] = useState(false)
   return (
-    <DataContext.Provider value={{ uxosData, setUxosData, tllmsData, setTllmsData, errorArray, setErrorArray }}>
+    <DataContext.Provider
+      value={{
+        uxosData,
+        setUxosData,
+        tllmsData,
+        setTllmsData,
+        errorArray,
+        setErrorArray,
+        allBatches,
+        setAllBatches,
+        pid,
+        setPid,
+        uxosLoading,
+        setUxosLoading,
+        tllmsLoading,
+        setTllmsLoading,
+      }}
+    >
       {children}
     </DataContext.Provider>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import Search from "./sidebar/Search";
 import ErrorTab from "./sidebar/ErrorTab";
+import Loading from "./Loading";
 
 function Sidebar() {
   return (
@@ -8,8 +9,8 @@ function Sidebar() {
       className="bg-light sidebar"
       style={{ width: "30%", height: "100vh", overflowY: "auto" }}
     >
-      <Search/>
-      <ErrorTab/>
+      <Search />
+      <ErrorTab />
     </div>
   );
 }

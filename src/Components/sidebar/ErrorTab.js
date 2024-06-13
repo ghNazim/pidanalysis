@@ -5,7 +5,7 @@ import { DataContext } from '../../Contexts/DataContext'
 function ErrorCard({error}) {
   return (
     
-      <Alert variant="danger" className='mb-1'>
+      <Alert variant="danger" className='mb-1 errorCard'>
         {error.addon} <br />
         {error.text}
       </Alert>

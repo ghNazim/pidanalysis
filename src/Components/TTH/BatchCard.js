@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Card, Row, Col } from "react-bootstrap";
 import {  formatReadableDate } from '../../utility/utilityFunctions';
+import { DataContext } from '../../Contexts/DataContext';
 
 function BatchCard({id}) {
   const [batch, setBatch] = useState(null);
@@ -41,20 +42,20 @@ function BatchCard({id}) {
       } else return;
     };
     fetchBatchData(id);
-  },[])
+  },[id])
   
     if(!batch) return <div>Loading...</div>
     const nonblc = isNaN(id);
-     const batchid = nonblc ? batch.data.id : batch.batchId,
-       courseId = nonblc ? batch.data.course_id : batch.courseId,
+     const batchid = nonblc ? batch?.data?.id : batch?.batchId,
+       courseId = nonblc ? batch?.data?.course_id : batch?.courseId,
        startDate = formatReadableDate(
-         nonblc ? batch.data.batch_start_date : batch.startDate
+         nonblc ? batch?.data?.batch_start_date : batch?.startDate
        ),
        endDate = formatReadableDate(
-         nonblc ? batch.data.batch_end_date : batch.endDate
+         nonblc ? batch?.data?.batch_end_date : batch?.endDate
        ),
-       cohort = nonblc ? batch.data.cohort_id : batch.courseAliasDetails.cohort,
-       languauge = nonblc ? batch.data.tutor_languages[0].name : "N/A";
+       cohort = nonblc ? batch?.data?.cohort_id : batch?.courseAliasDetails?.cohort,
+       languauge = nonblc ? batch?.data?.tutor_languages[0]?.name : "N/A";
   return (
     <Card>
       <Card.Body>

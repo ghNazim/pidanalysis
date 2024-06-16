@@ -42,7 +42,7 @@ export const fetchBatchData = async (batchId) => {
         client_id: "UXOS",
         client_key: "caf85fd3f5402223c6f5e8c9985ff150",
       };
-  if (batchId) {
+  
     try {
       const response = await fetch(url, {
         method: "GET",
@@ -50,14 +50,40 @@ export const fetchBatchData = async (batchId) => {
       });
 
       if (!response.ok) {
-        console.log("Error fetching from server");
-        return;
+        throw new Error(`Error: ${response.status}`);
       }
-
       const batchData = await response.json();
-      // console.log("Batch details: ",batchData)
+      return batchData
     } catch (error) {
       console.log(error.message);
     }
-  } else return;
+  
 };
+
+export const convertOrderId = function(orderid){
+  const match = orderid.match(/\d+$/);
+  if (match) {
+    return "SSO1-"+ match[0];
+  }
+  return null
+}
+// const fetchTllmsData = async () => {
+//   try {
+//     const response = await fetch(
+//       `https://d401-14-143-179-34.ngrok-free.app/get_tllms?pid=1843402884&auth=hiLFlLErXjAtYhoYR/UJsA==`
+//     );
+//     console.log("after get");
+//     if (!response.ok) {
+//       console.log("response not ok");
+//       throw new Error(`Error: ${response.status}`);
+//     }
+//     const result = await response.json();
+//     console.log("tllms result", result);
+//     setTllmsData(result);
+//   } catch (err) {
+//     setError(err.message);
+//     console.log(err);
+//   } finally {
+//     setTllmsLoading(false);
+//   }
+// };

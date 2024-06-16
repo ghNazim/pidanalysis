@@ -51,26 +51,52 @@ function Search() {
     }
   };
   const fetchTllmsData = async () => {
-    console.log("search text: ", searchText)
     try {
       const response = await fetch(
-        `https://d401-14-143-179-34.ngrok-free.app/get_tllms?pid=1205463183&auth=hiLFlLErXjAtYhoYR/UJsA==`
+        `http://localhost:3001/tllmsapi?pid=1843402884&auth=hiLFlLErXjAtYhoYR/UJsA==`,
+        {
+          headers: {
+            "Content-Type": "application/json",
+            "ngrok-skip-browser-warning": "69420", 
+            "User-Agent": "CustomUserAgent", 
+          },
+          mode: "cors", 
+        }
       );
-      console.log("after get")
+
       if (!response.ok) {
+        console.log("response not ok", response);
         throw new Error(`Error: ${response.status}`);
       }
-      console.log(response)
-      const result = await response.json();
-      setTllmsData(result);
-      console.log("result came",result)
+
+      const contentType = response.headers.get("content-type");
+      if (!contentType || !contentType.includes("application/json")) {
+        const responseText = await response.text(); // Read the response as text
+        console.log("Received content-type:", contentType);
+        console.log("Response text:", responseText); // Log the response text
+        throw new Error("Received non-JSON response");
+      }
+
+      try {
+        const result = await response.json();
+        console.log("tllms result", result);
+        setTllmsData(result);
+      } catch (jsonError) {
+        console.log("Error parsing JSON", jsonError);
+        throw new Error("Error parsing JSON");
+      }
     } catch (err) {
       setError(err.message);
-      console.log("Error: ", err)
+      console.log("Error in fetchTllmsData:", err);
     } finally {
       setTllmsLoading(false);
     }
   };
+
+
+
+
+
 
   const handleClick = function () {
     setUxosLoading(true)

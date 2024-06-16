@@ -116,15 +116,18 @@ const AddonItem = ({ data }) => {
   );
 };
 const Addons = () => {
-  const { uxosData, setAllBatches } = useContext(DataContext);
+  const { uxosData, setAllBatches, setAllOrders } = useContext(DataContext);
   const addons = uxosData.addons;
-
+  const orderList = uxosData.order_lines
   useEffect(() => {
     const mappedBatches = addons
       .filter((i) => i.batch_id)
       .map((d) => d.batch_id);
+    const mappedOrders = orderList.map((i) => i.orderId);
     setAllBatches(mappedBatches);
-  }, []);
+    setAllOrders(mappedOrders)
+  }, [uxosData]);
+  
   return (
     <Container className="mt-4">
       <Table striped bordered hover responsive>

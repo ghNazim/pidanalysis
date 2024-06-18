@@ -53,28 +53,20 @@ function Search() {
   const fetchTllmsData = async () => {
     try {
       const response = await fetch(
-        `http://localhost:3001/tllmsapi?pid=1843402884&auth=hiLFlLErXjAtYhoYR/UJsA==`,
+        `http://localhost:3001/tllmsapi/get_tllms1?pid=1843402884&auth=hiLFlLErXjAtYhoYR/UJsA==`,
         {
           headers: {
             "Content-Type": "application/json",
-            "ngrok-skip-browser-warning": "69420", 
-            "User-Agent": "CustomUserAgent", 
+            "ngrok-skip-browser-warning": "69420",
+            "User-Agent": "CustomUserAgent",
           },
-          mode: "cors", 
+          mode: "cors",
         }
       );
 
       if (!response.ok) {
         console.log("response not ok", response);
         throw new Error(`Error: ${response.status}`);
-      }
-
-      const contentType = response.headers.get("content-type");
-      if (!contentType || !contentType.includes("application/json")) {
-        const responseText = await response.text(); // Read the response as text
-        console.log("Received content-type:", contentType);
-        console.log("Response text:", responseText); // Log the response text
-        throw new Error("Received non-JSON response");
       }
 
       try {

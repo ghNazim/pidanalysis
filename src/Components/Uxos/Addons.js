@@ -94,7 +94,7 @@ const AddonItem = ({ data }) => {
       </td>
       {/* <td>Math Science</td> */}
       <td>{data.language_of_instruction}</td>
-      <td>6</td>
+      <td>{data.cohort_id}</td>
 
       <td>
         {data.batch_id}
@@ -141,7 +141,7 @@ const Addons = () => {
             <th>Language</th>
             {/* <th>Course Alias</th> */}
 
-            <th>Grade</th>
+            <th>Cohort</th>
 
             <th>Batch Id</th>
             <th>Type</th>

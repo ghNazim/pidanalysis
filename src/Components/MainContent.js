@@ -15,22 +15,19 @@ import { DataContext } from "../Contexts/DataContext";
 library.add(faArrowRight);
 
 function MainContent() {
-  const {pid} = useContext(DataContext);
+  const { pid, uxosSyncData } = useContext(DataContext);
   return (
     <div className="main-content" style={{ width: "70%", padding: "20px" }}>
       <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
         <h6>
           {pid}
-          <Badge variant="success" className="mx-3">
-            Synced
+          <Badge bg={uxosSyncData.Synch_Status==="Synced"?"primary":"danger"} className="mx-3">
+            {uxosSyncData.Synch_Status}
           </Badge>
         </h6>
         <div className="btn-toolbar mb-2 mb-md-0">
           <div className="btn-group mx-2">
-            <Button variant="primary">Sync K-12</Button>
-
-            <Button variant="success">Sync Aaakash</Button>
-            <Button variant="warning">Sync All</Button>
+            <Button variant="primary">Sync UXOS</Button>
           </div>
           <Button variant="danger">
             Post <FontAwesomeIcon icon="arrow-right" />

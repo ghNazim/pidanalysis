@@ -67,6 +67,7 @@ const AddonItem = ({ data }) => {
   const filteredErrorList = Object.fromEntries(
     Object.entries(errorlist).filter(([key, value]) => value === true)
   );
+  
   const isErrored = Object.keys(filteredErrorList).length > 0;
 
   return (

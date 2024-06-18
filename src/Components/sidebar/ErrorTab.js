@@ -6,7 +6,7 @@ function ErrorCard({error}) {
   return (
     
       <Alert variant="danger" className='mb-1 errorCard'>
-        {error.addon} <br />
+        {error.name} <br />
         {error.text}
       </Alert>
 

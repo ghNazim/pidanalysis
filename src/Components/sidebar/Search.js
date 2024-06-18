@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { Button, InputGroup, Form } from "react-bootstrap";
 import { DataContext } from "../../Contexts/DataContext";
 function Search() {
-  const { setUxosData, setTllmsData, setPid, setUxosLoading, setTllmsLoading } =
+  const { setUxosData, setTllmsData,setUxosSyncData, setPid, setUxosLoading, setTllmsLoading, } =
     useContext(DataContext);
   const [searchText, setSearchText] = useState("");
   const [error, setError] = useState(null);
@@ -53,7 +53,7 @@ function Search() {
   const fetchTllmsData = async () => {
     try {
       const response = await fetch(
-        `http://localhost:3001/tllmsapi/get_tllms1?pid=1843402884&auth=hiLFlLErXjAtYhoYR/UJsA==`,
+        `http://localhost:3001/tllmsapi/get_tllms1?pid=${searchText}&auth=hiLFlLErXjAtYhoYR/UJsA==`,
         {
           headers: {
             "Content-Type": "application/json",
@@ -84,15 +84,42 @@ function Search() {
       setTllmsLoading(false);
     }
   };
+const fetchUxosSyncData = async () => {
+  try {
+    const response = await fetch(
+      `http://localhost:3001/uxosSyncapi/get_uxos1?pid=${searchText}&synch=null&auth=hiLFlLErXjAtYhoYR/UJsA==`,
+      {
+        headers: {
+          "Content-Type": "application/json",
+          "ngrok-skip-browser-warning": "69420",
+          "User-Agent": "CustomUserAgent",
+        },
+        mode: "cors",
+      }
+    );
 
+    if (!response.ok) {
+      console.log("response not ok", response);
+      throw new Error(`Error: ${response.status}`);
+    }
 
-
-
-
-
+    try {
+      const result = await response.json();
+      console.log("uxos sync data", result);
+      setUxosSyncData(result);
+    } catch (jsonError) {
+      console.log("Error parsing JSON", jsonError);
+      throw new Error("Error parsing JSON");
+    }
+  } catch (err) {
+    setError(err.message);
+    console.log("Error in fetch uxos sync data :", err);
+  } 
+};
   const handleClick = function () {
     setUxosLoading(true)
     setTllmsLoading(true)
+    fetchUxosSyncData()
     fetchUxosData();
     fetchTllmsData();
     setPid(searchText);

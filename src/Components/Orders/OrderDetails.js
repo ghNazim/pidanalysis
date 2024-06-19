@@ -2,23 +2,27 @@ import React, { useContext, useEffect, useState } from "react";
 import { Card, Container, Table } from "react-bootstrap";
 import { DataContext } from "../../Contexts/DataContext";
 import Kart from "./Kart";
-import { convertOrderId } from "../../utility/utilityFunctions";
+import { convertOrderId, extractDate, formatReadableDate } from "../../utility/utilityFunctions";
 
-function ProductRow({product}){
-
+function ProductRow({ product }) {
   return (
     <tr>
       <td>{product.name}</td>
-      <td>{(product.validity||"") + ", "+  (product.validityMonth|| "")}</td>
+      {product.validity && product.validityMonth ? (
+        <td>
+          {(product.validity || "") + ", " + (product.validityMonth || "")}
+        </td>
+      ) : (
+        <td>{formatReadableDate(extractDate(product.name))}</td>
+      )}
     </tr>
   );
 }
 
-function OrderCard({orderId}){
+function OrderCard({ orderId }) {
+  const [data, setData] = useState(null);
 
-  const [data,setData] = useState(null)
-  
-  useEffect(()=>{
+  useEffect(() => {
     const fetchOrderDetails = async () => {
       const url = "http://localhost:3001/uxosapi";
       const headers = {
@@ -29,7 +33,7 @@ function OrderCard({orderId}){
         collection: "orders",
         db: "byjusleado",
         filter: {
-          "orderId": convertOrderId(orderId),
+          orderId: convertOrderId(orderId),
         },
         select: "customerDetails",
         limit: 1,
@@ -50,17 +54,18 @@ function OrderCard({orderId}){
         console.error("Error fetching order details:", err);
       }
     };
-    fetchOrderDetails()
-
-  },[orderId])
-  if (!data) return (
-    <Card>
-      <Card.Body>
-        <strong>Order Id:</strong> {orderId}<br/>
-        Could not fetch data
-      </Card.Body>
-    </Card>
-  );
+    fetchOrderDetails();
+  }, [orderId]);
+  if (!data)
+    return (
+      <Card>
+        <Card.Body>
+          <strong>Order Id:</strong> {orderId}
+          <br />
+          Could not fetch data
+        </Card.Body>
+      </Card>
+    );
   return (
     <Card>
       <Card.Body>
@@ -83,12 +88,13 @@ function OrderCard({orderId}){
   );
 }
 function OrderDetails() {
-  
-  const {allOrders} = useContext(DataContext)
+  const { allOrders } = useContext(DataContext);
   return (
     <Container className="mt-4">
-      <Kart/>
-      {allOrders.map((item,index)=><OrderCard orderId={item} key={index}/>)}
+      <Kart />
+      {allOrders.map((item, index) => (
+        <OrderCard orderId={item} key={index} />
+      ))}
     </Container>
   );
 }

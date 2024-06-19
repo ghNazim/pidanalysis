@@ -14,7 +14,7 @@ const DataProvider = ({ children }) => {
   const [uxosLoading,setUxosLoading] = useState(false)
   const [tllmsLoading,setTllmsLoading] = useState(false)
   const [uxosSyncData,setUxosSyncData] = useState({})
-  const [syncErrors,setSyncErrors] = useState({uxos:null,tllms:null})
+  const [syncErrors,setSyncErrors] = useState({uxos:null,tllms:null,mobile:null})
   useEffect(()=>{
     const addons = uxosData.addons
     const mappedErrors = addons.map(async (addonItem)=>{
@@ -48,8 +48,9 @@ const DataProvider = ({ children }) => {
       ...prev,
       uxos: uxosSyncData,
       tllms: tllmsData.Synch_Status,
+      mobile: uxosData.primaryNumber !== uxosData.student_details.mobile,
     }));
-  },[uxosSyncData,tllmsData])
+  },[uxosSyncData,tllmsData,uxosData])
   return (
     <DataContext.Provider
       value={{

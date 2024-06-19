@@ -1,6 +1,8 @@
 export function formatReadableDate(isoString) {
   const date = new Date(isoString);
-
+  if (isNaN(date.getTime())) {
+    return null;
+  }
   const options = {
     year: "numeric",
     month: "long",
@@ -154,3 +156,71 @@ export const toText = function (errors) {
 
   return errorText;
 };
+
+export function extractDate(inputStr) {
+  // Regular expressions to match the date formats
+  let dateRegexShort = /\b(\w{3})-(\d{4})\b/;
+  let dateRegexLong = /\b(\w+)\s(\d{4})\b/;
+
+  let matchShort = inputStr.match(dateRegexShort);
+  let matchLong = inputStr.match(dateRegexLong);
+
+  let month, year;
+  const monthsShort = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
+  const monthsLong = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+
+  if (matchShort) {
+    [month, year] = matchShort[0].split("-");
+    if (!monthsShort.includes(month)) {
+      return null; // Invalid month abbreviation
+    }
+  } else if (matchLong) {
+    month = matchLong[1];
+    year = matchLong[2];
+    if (!monthsLong.includes(month)) {
+      return null; // Invalid month name
+    }
+  } else {
+    return null; // No date found
+  }
+
+  // Create a date string that can be parsed
+  let dateString = `${month} 1, ${year}`;
+
+  // Parse the date string
+  let dateObj = new Date(dateString);
+
+  // Check for invalid date (NaN)
+  if (isNaN(dateObj.getTime())) {
+    return null; // Return null if date is invalid
+  } else {
+    return dateObj.toISOString();
+  }
+}
+

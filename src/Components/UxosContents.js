@@ -4,11 +4,12 @@ import Addons from "./Uxos/Addons";
 import Details from "./Uxos/Details";
 import Subscriptions from "./Uxos/Subscriptions";
 import { DataContext } from "../Contexts/DataContext";
+import Loading from "./Loading";
 
 
 function UxosContents() {
-  const {uxosSyncData} = useContext(DataContext)
-  return (
+  const { uxosSyncData, uxosLoading } = useContext(DataContext);
+  return uxosLoading ? <Loading/> : (
     <>
       {uxosSyncData.Synch_Status==="Not Synced" && <Alert variant="danger" className="mb-1 errorCard">
         {JSON.stringify(uxosSyncData)}

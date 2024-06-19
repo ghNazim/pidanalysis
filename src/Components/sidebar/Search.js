@@ -40,7 +40,6 @@ function Search() {
         setUxosLoading(false)
         return;
       }
-
       const data = await response.json();
       setUxosData(data.docs[0]);
       setUxosLoading(false);

@@ -15,6 +15,7 @@ const DataProvider = ({ children }) => {
   const [tllmsLoading,setTllmsLoading] = useState(false)
   const [uxosSyncData,setUxosSyncData] = useState({})
   const [syncErrors,setSyncErrors] = useState({uxos:null,tllms:null,mobile:null})
+  const [tllmsErrors,setTllmsErrors] = useState([])
   useEffect(()=>{
     const addons = uxosData.addons
     const mappedErrors = addons.map(async (addonItem)=>{
@@ -51,6 +52,22 @@ const DataProvider = ({ children }) => {
       mobile: uxosData.primaryNumber !== uxosData.student_details.mobile,
     }));
   },[uxosSyncData,tllmsData,uxosData])
+  useEffect(()=>{
+    const allRefs = tllmsData["Logistic_Sessions"];
+    const onlyData = allRefs.map((data, index) => {
+      const v = Object.values(data)[0];
+      return (v);
+    });
+    const flatAll = onlyData.flat()
+    const filteredFlat = flatAll.filter((data)=>{
+      const deliveryStatus = data["Delivery Date"] || data["DELIVERY DATE"];
+      const notDelivered =
+        deliveryStatus === "Not Delivered" ||
+        deliveryStatus === "NOT DELIVERED";
+        return notDelivered
+    })
+    setTllmsErrors(filteredFlat.map( i => (i["Reference"] || i["REFERENCE"])))
+  },[tllmsData])
   return (
     <DataContext.Provider
       value={{
@@ -74,6 +91,8 @@ const DataProvider = ({ children }) => {
         setUxosSyncData,
         syncErrors,
         setSyncErrors,
+        tllmsErrors,
+        setTllmsErrors,
       }}
     >
       {children}

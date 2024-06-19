@@ -13,10 +13,18 @@ function ErrorCard({errorItem}) {
 }
 
 function ErrorTab() {
-    const {errorArray} = useContext(DataContext)
+    const { errorArray, tllmsErrors } = useContext(DataContext);
   return (
     <Container className="mt-4">
-      {errorArray.map( (item,index) => <ErrorCard errorItem={item} key={index} />)}
+      {errorArray.map((item, index) => (
+        <ErrorCard errorItem={item} key={index} />
+      ))}
+      {tllmsErrors.map((item, index) => (
+        <Alert variant="warning" className="mb-1 errorCard">
+          {item} <br />
+          <div className="formatted">Not delivered on TLLMS</div>
+        </Alert>
+      ))}
     </Container>
   );
 }

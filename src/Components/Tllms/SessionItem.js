@@ -11,8 +11,8 @@ function SingleItem({ data }) {
     deliveryStatus === "Not Delivered" || deliveryStatus === "NOT DELIVERED";
   return (
     <tr>
-      <td>{data.Batch || data.BATCH}</td>
       <td>{data.Reference || data.REFERENCE}</td>
+      <td>{data.Batch || data.BATCH}</td>
       <td>{data.Cohort || data.COHORT}</td>
       <td>{data["Valid From"] || data["VALID FROM"]}</td>
       <td>{validTill}</td>
@@ -28,8 +28,8 @@ function SessionItem({ dataArray }) {
       <Table striped bordered hover responsive>
         <thead>
           <tr>
-            <th>Batch</th>
             <th>Reference Id</th>
+            <th>Batch</th>
             <th>Cohort</th>
             <th>Valid From</th>
             <th>Valid Till</th>

@@ -4,6 +4,7 @@
 }
 .errorCard{
   cursor: pointer;
+  overflow-wrap:break-word;
 }
 
 .small{
@@ -15,3 +16,6 @@
 
 }
 
+.formatted{
+  white-space: pre;
+}

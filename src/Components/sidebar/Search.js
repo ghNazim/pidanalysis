@@ -53,7 +53,7 @@ function Search() {
   const fetchTllmsData = async () => {
     try {
       const response = await fetch(
-        `http://localhost:3001/tllmsapi/get_tllms1?pid=${searchText}&auth=hiLFlLErXjAtYhoYR/UJsA==`,
+        `http://localhost:3001/tllmsapi/pc1_get_tllms9?pid=${searchText}&auth=hiLFlLErXjAtYhoYR/UJsA==`,
         {
           headers: {
             "Content-Type": "application/json",
@@ -87,7 +87,7 @@ function Search() {
 const fetchUxosSyncData = async () => {
   try {
     const response = await fetch(
-      `http://localhost:3001/uxosSyncapi/get_uxos1?pid=${searchText}&synch=null&auth=hiLFlLErXjAtYhoYR/UJsA==`,
+      `http://localhost:3001/uxosSyncapi/pcx_get_uxos9?pid=${searchText}&auth=hiLFlLErXjAtYhoYR/UJsA==`,
       {
         headers: {
           "Content-Type": "application/json",

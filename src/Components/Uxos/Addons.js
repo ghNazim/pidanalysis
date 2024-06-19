@@ -3,13 +3,13 @@ import { Table, Container } from "react-bootstrap";
 import { DataContext } from "../../Contexts/DataContext";
 import {
   isDateInFuture,
-  dateValidation,
   formatReadableDate,
 } from "../../utility/utilityFunctions";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 
 const AddonItem = ({ data }) => {
+  const {errorArray} = useContext(DataContext)
   const [batchStartDate, setBatchStartDate] = useState("");
   const [batchEndDate, setBatchEndDate] = useState("");
   const [batchLanguage, setBatchLanguage] = useState("N/A");
@@ -60,15 +60,10 @@ const AddonItem = ({ data }) => {
     if (data?.batch_id) fetchBatchData(data.batch_id);
   }, []);
   const isActive = isDateInFuture(data.valid_till);
-  const errorlist = {
-    dateValidationError: dateValidation(data.valid_from, data.valid_till),
-  };
-
-  const filteredErrorList = Object.fromEntries(
-    Object.entries(errorlist).filter(([key, value]) => value === true)
-  );
   
-  const isErrored = Object.keys(filteredErrorList).length > 0;
+
+  
+  const isErrored = errorArray.some(item => item.name===data.reference_id);
 
   return (
     <tr>

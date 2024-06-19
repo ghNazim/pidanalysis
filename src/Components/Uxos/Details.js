@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { DataContext } from "../../Contexts/DataContext";
-import { formatReadableDate } from "../../utility/utilityFunctions";
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function Details() {

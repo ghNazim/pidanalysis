@@ -224,3 +224,7 @@ export function extractDate(inputStr) {
   }
 }
 
+export function notDelivered(addon){
+  
+}
+

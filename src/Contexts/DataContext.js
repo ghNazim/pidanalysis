@@ -72,6 +72,8 @@ const DataProvider = ({ children }) => {
         setAllOrders,
         uxosSyncData,
         setUxosSyncData,
+        syncErrors,
+        setSyncErrors,
       }}
     >
       {children}
